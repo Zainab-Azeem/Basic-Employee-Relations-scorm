@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 5 of 5" closeText="OK">
+  <instructions>Select one correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>A supervisor is required to serve a different probationary period.</question>
+  <answers>
+    <option correct="1" display_order="0">True</option>
+    <option correct="0" display_order="1">False</option>
+  </answers>
+  <correct audio="">That's right!  The correct response is True. New supervisors and managers must serve a probationary period the first time they start a permanent supervisory or managerial position in the competitive service. There are different probationary periods for a supervisor and a manager.  If the initial assignment is both supervisory and managerial, the employee must complete a single probationary period.  If the employee has completed a supervisory probationary period, an agency may by regulation provide for exceptions to the requirement for the managerial probation when justified on the basis of performance and experience.  (Source 5 CFR 315.904)</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is True. New supervisors and managers must serve a probationary period the first time they start a permanent supervisory or managerial position in the competitive service. There are different probationary periods for a supervisor and a manager.  If the initial assignment is both supervisory and managerial, the employee must complete a single probationary period.  If the employee has completed a supervisory probationary period, an agency may by regulation provide for exceptions to the requirement for the managerial probation when justified on the basis of performance and experience.  (Source 5 CFR 315.904)</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

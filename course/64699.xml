@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 3 of 39" closeText="OK">
+    <question>Which of the following is NOT a Merit System Principle?</question>
+  <answers>
+    <option correct="0" display_order="0" alt="">Maintain high standards of integrity, conduct, and concern for the public interest.</option>
+    <option correct="0" display_order="1" alt="">Protect employees against reprisal for the lawful disclosure of information in "whistleblower" situations.</option>
+    <option correct="0" display_order="2" alt="">Provide equal pay for equal work and reward excellent performance.</option>
+    <option correct="1" display_order="3" alt="">Recruit, select, and advance on political affiliation after an open competition.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

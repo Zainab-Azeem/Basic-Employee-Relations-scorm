@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 12 of 39" closeText="OK">
+    <question>When is management required to accommodate an employee?</question>
+  <answers>
+    <option correct="0" display_order="0" alt="">When an employee requests accommodation</option>
+    <option correct="0" display_order="1" alt="">When an employee is injured on the job</option>
+    <option correct="0" display_order="2" alt="">When an employee returns from a leave of absence</option>
+    <option correct="1" display_order="3" alt="">When an employee is legally considered disabled</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

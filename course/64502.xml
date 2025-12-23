@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Case Study 2: 3 of 3" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Case Study 2: 3 of 3&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+NIDA-Pak advertised a position for Finance Manager, requiring a Master’s degree in Finance/Accounting and at least 5 years of relevant experience. Ali, a candidate with the required degree and 6 years of strong professional experience, successfully passed the written test and interview. However, his past employment record shows he was previously terminated from another organization due to repeated violations of HR policies.&lt;br&gt;&lt;br&gt;
+Question: Should Ali’s previous employment record be considered when making the final recruitment decision?
+</question>
+<answers>
+  <option correct="1" display_order="0">True</option>
+  <option correct="0" display_order="1">False</option>
+</answers>
+<correct audio="">That's right! The correct response is True. A candidate’s employment history, including any record of misconduct, is a critical factor in the recruitment decision. Even if Ali meets the academic and experience criteria, integrity, professionalism, and adherence to organizational values are equally important for final selection.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is True. A candidate’s employment history, including any record of misconduct, is a critical factor in the recruitment decision. Even if Ali meets the academic and experience criteria, integrity, professionalism, and adherence to organizational values are equally important for final selection.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

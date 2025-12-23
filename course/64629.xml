@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 9 of 10" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+   <question>Which of the following must be included in a quotation request?</question>
+  <answers>
+    <option correct="1">Full specifications</option>
+    <option correct="0">Personal signatures of staff</option>
+    <option correct="0">Unrelated financial analysis</option>
+    <option correct="0">Supplier's political views</option>
+  </answers>
+  <correct>Correct! Full specifications are mandatory.</correct>
+  <incorrect>The correct answer is Full specifications.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

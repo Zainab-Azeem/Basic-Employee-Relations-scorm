@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 5 of 8" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which document is required for Cash for Work activities?</question>
+  <answers>
+    <option correct="1">Beneficiaries List</option>
+    <option correct="0">Contract lease agreements</option>
+    <option correct="0">Fuel supply contract</option>
+    <option correct="0">Log books</option>
+  </answers>
+  <correct>Correct! Cash for Work requires a Beneficiaries List.</correct>
+  <incorrect>Incorrect. The correct answer is Beneficiaries List.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

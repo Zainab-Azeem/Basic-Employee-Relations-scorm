@@ -1,0 +1,186 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
+<div id="Water_Mark"></div>
+	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
+		<style>
+/* Shared Layout */
+.proc-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+/* Left Menu */
+.proc-menu {
+  width: 35%;
+  border-right: 2px solid #ddd;
+  padding-right: 15px;
+}
+
+.proc-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proc-menu li {
+  margin-bottom: 10px;
+}
+
+.proc-menu a {
+  display: block;
+  padding: 10px 12px;
+  background: #f5f7fb;
+  border-left: 4px solid #2b579a;
+  color: #2b579a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.proc-menu a:hover {
+  background: #e6ecfa;
+}
+
+/* Right Detail Panel */
+.proc-detail {
+  width: 65%;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 15px 18px;
+}
+
+.proc-detail h3 {
+  margin-top: 0;
+  color: #2b579a;
+}
+
+.proc-detail p {
+  line-height: 1.5;
+}
+</style>
+
+<!-- HEADER -->
+<div class="textHeadline">Special Procurement Categories</div>
+
+<div class="textContent">
+  <p>
+    Certain procurement categories require specific handling due to urgency,
+    nature of services, or asset capitalization requirements.
+  </p>
+  <p><strong><font color="#b01c05">
+    Select a category to view applicable rules and procedures.
+  </font></strong></p>
+</div>
+
+<!-- CONTENT -->
+<div class="proc-container">
+
+  <!-- LEFT MENU -->
+  <div class="proc-menu">
+    <ul>
+      <li>
+        <a href="javascript:void(0)" onclick="showSpecial('emergency')">
+          Emergency Purchases
+        </a>
+      </li>
+
+      <li>
+        <a href="javascript:void(0)" onclick="showSpecial('services')">
+          Purchase of Services
+        </a>
+      </li>
+
+      <li>
+        <a href="javascript:void(0)" onclick="showSpecial('assets')">
+          Fixed Assets Expenditure
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- RIGHT DETAIL -->
+  <div id="specialDetail" class="proc-detail">
+    <h3>Special Procurement Procedures</h3>
+    <p>Please select a category from the left panel.</p>
+  </div>
+
+</div>
+
+<script>
+function showSpecial(type) {
+  const panel = document.getElementById("specialDetail");
+
+  const data = {
+    emergency: `
+      <h3>Emergency Purchases</h3>
+      <p>
+        Emergency procurement is undertaken when immediate action is required
+        to prevent harm, disruption, or loss to project activities or beneficiaries.
+      </p>
+      <ul>
+        <li>Priority is given to delivery time and quality over price.</li>
+        <li>Normal procurement thresholds may be bypassed with justification.</li>
+        <li>Written approval from authorized management is mandatory.</li>
+        <li>Complete documentation must be retained for audit purposes.</li>
+      </ul>`,
+
+    services: `
+      <h3>Purchase of Services</h3>
+      <p>
+        Procurement of services follows the same principles of transparency,
+        competition, and value for money as goods procurement.
+      </p>
+      <ul>
+        <li>At least three service providers should be contacted.</li>
+        <li>Clear Terms of Reference (ToRs) must be defined.</li>
+        <li>Selection is based on cost, expertise, and delivery capacity.</li>
+        <li>Formal contract or service agreement is required.</li>
+      </ul>`,
+
+    assets: `
+      <h3>Fixed Assets Expenditure</h3>
+      <p>
+        Fixed assets are managed to ensure accountability, proper capitalization,
+        and compliance with accounting standards.
+      </p>
+      <ul>
+        <li>Assets costing PKR 10,000 or more are capitalized.</li>
+        <li>Asset life must be three years or longer.</li>
+        <li>Repairs are capitalized only if they extend asset life.</li>
+        <li>All assets must be recorded in the asset register.</li>
+      </ul>`
+  };
+
+  panel.innerHTML = data[type];
+}
+</script>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
+		<div id="UDUTU_Text1_EditContent" class="editPanel">
+			<p>text editing options</p>
+			<div id="UDUTU_Text1_btnAdd"></div>
+			<div id="UDUTU_Text1_btnEdit"></div>
+			<div id="UDUTU_Text1_btnSelect"></div>
+		</div>
+	</div>
+
+	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
+		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="Two men working"  width='448' height='336' src='../media/content/OPM_ER_20b_formalDiscussions_81349.png' srcWidth='448' srcHeight='336' ALT='Two men working' >
+		
+		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
+			<p>media editing options</p>
+			<div id="UDUTU_MultiMedia1_btnAdd"></div>
+			<div id="UDUTU_MultiMedia1_btnEdit"></div>
+			<div id="UDUTU_MultiMedia1_btnSelect"></div>
+		</div>
+	
+		<div id="UDUTU_MultiMedia1_Caption" class="caption">
+			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
+			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
+				<p>edit caption</p>
+				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
+			</div>
+		</div>
+	</div>
+	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
+</body></html>

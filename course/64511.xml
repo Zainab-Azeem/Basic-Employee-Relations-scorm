@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 4 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f9fdf4; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>8.11. Emergency Waivers:</b><br>
+      In emergency situations or cases of urgent need, the Chief Executive Officer (CEO) may waive formal recruitment and selection procedures. Under this provision, NIDA-Pak may:
+      <ul>
+        <li>Circulate certain new positions internally only.</li>
+        <li>Shift duties of a regular/contract employee to another department, region, or project without advertisement, test, or interview.</li>
+        <li>Assign additional charge to a regular/contract employee without advertisement, test, or interview.</li>
+        <li>Seek and re-hire ex-employees of NIDA-Pak without advertisement.</li>
+        <li>Recruit directly from the CV bank or via headhunting without advertisement.</li>
+      </ul>
+      <br>
+
+      <b>8.12. Probation Period:</b><br>
+      The first three months of employment for regular/permanent staff are considered a probationary period. For contract or temporary employees, probation may vary or may not apply depending on project duration. At the end of probation:
+      <ul>
+        <li>Performance is reviewed by the supervisor and management.</li>
+        <li>Extension or confirmation depends on a written recommendation by the supervisor.</li>
+        <li>If performance is unsatisfactory, a written plan with a timetable for improvement is initiated.</li>
+        <li>Employment may be terminated at any time during the probation period.</li>
+      </ul>
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock4').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock4" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 4 of 9</b><br><br>
+      Which of the following statements correctly reflects NIDA-Pak’s policy on emergency waivers and probation?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      The CEO may waive recruitment steps in emergencies, and probationary employees may be terminated at any time within the probation period if performance is unsatisfactory.
+    </option>
+    <option correct="0" display_order="1">
+      Only the HR Department can waive recruitment procedures, and all probationary employees must complete three months before termination is possible.
+    </option>
+    <option correct="0" display_order="2">
+      Emergency waivers are limited to ex-employee rehiring, and probationary reviews are optional at the discretion of the supervisor.
+    </option>
+    <option correct="0" display_order="3">
+      Employees on probation cannot be terminated until the final day of the probationary period, regardless of performance.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! In emergencies, the CEO may bypass normal recruitment procedures, and during probation, employees can be reviewed, extended, or terminated depending on performance and supervisor recommendations.
+  </correct>
+  <incorrect audio="">
+    Sorry, that’s not correct. The correct answer is that the CEO may waive formal recruitment in emergencies, and probationary employees can be terminated at any time if their performance is unsatisfactory.
+  </incorrect>
+  <partial audio="">Select one item only.</partial>
+</content>

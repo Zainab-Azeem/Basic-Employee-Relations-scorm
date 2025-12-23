@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 6 of 10" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+    <question>Which of the following is a basic principle of procurement?</question>
+  <answers>
+    <option correct="1">Best value for money</option>
+    <option correct="0">Purchasing from only one supplier</option>
+    <option correct="0">Ignoring market competition</option>
+    <option correct="0">Favouring selected vendors</option>
+  </answers>
+  <correct>Correct! Best value for money is a primary procurement principle.</correct>
+  <incorrect>The correct answer is Best value for money.</incorrect>
+  <partial audio="">Not quite. Each item listed is correct.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

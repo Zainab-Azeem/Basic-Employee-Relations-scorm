@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 1 of 10" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+ <question>Which of the following is part of the information needed during a logistics assessment?</question>
+  <answers>
+    <option correct="1">Transport infrastructure</option>
+    <option correct="0">Employee salaries</option>
+    <option correct="0">Marketing strategy</option>
+    <option correct="0">Donor entertainment costs</option>
+  </answers>
+  <correct>Correct! Transport infrastructure is a key part of logistics assessment.</correct>
+  <incorrect>Incorrect. The correct answer is Transport infrastructure.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 27 of 39" closeText="OK">
+    <question>What happens if a new supervisor or manager fails to satisfy their probationary period?</question>
+  <answers>
+    <option correct="1" display_order="0" alt="">The employee must return to a non-managerial position.</option>
+    <option correct="0" display_order="1" alt="">The employee is disciplined and given a second chance to complete their probation.</option>
+    <option correct="0" display_order="2" alt="">The employee is terminated.</option>
+    <option correct="0" display_order="3" alt="">The employee must be demoted and is never eligible for promotion again.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

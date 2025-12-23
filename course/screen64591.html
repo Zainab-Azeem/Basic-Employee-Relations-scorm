@@ -1,0 +1,279 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
+<div id="Water_Mark"></div>
+	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
+		<style>
+/* Layout */
+.proc-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+/* Left Menu */
+.proc-menu {
+  width: 38%;
+  border-right: 2px solid #ddd;
+  padding-right: 15px;
+}
+
+.proc-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proc-menu li {
+  margin-bottom: 8px;
+}
+
+.proc-menu a {
+  display: block;
+  padding: 9px 12px;
+  background: #f5f7fb;
+  border-left: 4px solid #1f3c88;
+  color: #1f3c88;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.proc-menu a:hover {
+  background: #e8edfa;
+}
+
+/* Right Panel */
+.proc-detail {
+  width: 62%;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 15px 18px;
+}
+
+.proc-detail h3 {
+  margin-top: 0;
+  color: #1f3c88;
+}
+
+.proc-detail ul {
+  padding-left: 18px;
+}
+
+.proc-detail li {
+  margin-bottom: 6px;
+}
+</style>
+
+<!-- HEADER -->
+<div class="textHeadline">Purchasing Process Cycle</div>
+
+<div class="textContent">
+  <p>
+    NIDA-Pakistan follows a structured purchasing process cycle to ensure
+    transparency, value for money, compliance with donor requirements,
+    and accountability at every stage.
+  </p>
+  <p><strong><font color="#b01c05">
+    Select a step in the purchasing cycle to view its details.
+  </font></strong></p>
+</div>
+
+<!-- CONTENT -->
+<div class="proc-container">
+
+  <!-- LEFT MENU -->
+  <div class="proc-menu">
+    <ul>
+      <li><a href="javascript:void(0)" onclick="showCycle('overview')">Purchasing Process Overview</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('pr')">Purchase Requisition (PR)</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('rfq')">Request for Quotation (RFQ)</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('ba')">Bid Analysis (BA)</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('po')">Purchase Order / Contract</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('wo')">Work Order (WO)</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('repeat')">Repeat Orders</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('evaluation')">Evaluation of Offers</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('award')">Awarding Contracts</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('changes')">Order Cancellation & Changes</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('receiving')">Receiving & Inspection</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('paymentGoods')">Payment for Goods</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('paymentServices')">Payment for Services</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('docs')">Documentation & Records</a></li>
+      <li><a href="javascript:void(0)" onclick="showCycle('summary')">Procurement Thresholds Summary</a></li>
+    </ul>
+  </div>
+
+  <!-- RIGHT DETAIL -->
+  <div id="cycleDetail" class="proc-detail">
+    <h3>Purchasing Process</h3>
+    <p>Please select a step from the left panel.</p>
+  </div>
+
+</div>
+
+<script>
+function showCycle(step) {
+  const panel = document.getElementById("cycleDetail");
+
+  const data = {
+    overview: `
+      <h3>Purchasing Process Overview</h3>
+      <p>
+        All purchases follow a standardized cycle to ensure efficiency,
+        compliance, and accountability.
+      </p>
+      <ul>
+        <li>Requisition</li>
+        <li>Quotation / RFQ</li>
+        <li>Bid Analysis</li>
+        <li>Purchase Order or Contract</li>
+        <li>Receiving and Inspection</li>
+        <li>Payment</li>
+      </ul>`,
+
+    pr: `
+      <h3>Purchase Requisition (PR)</h3>
+      <ul>
+        <li>All purchases start with an approved Purchase Requisition.</li>
+        <li>Budget codes, project, donor, and activity must be specified.</li>
+        <li>Supervisor or authorized person approval is mandatory.</li>
+      </ul>`,
+
+    rfq: `
+      <h3>Request for Quotation (RFQ)</h3>
+      <ul>
+        <li>RFQs are issued to suppliers to obtain competitive pricing.</li>
+        <li>Specifications, quantities, and delivery timelines must be clear.</li>
+        <li>Urgent purchases under PKR 25,001 require post-facto approval.</li>
+      </ul>`,
+
+    ba: `
+      <h3>Bid Analysis (BA)</h3>
+      <ul>
+        <li>Summarizes all supplier quotations.</li>
+        <li>Evaluated on price, quality, delivery, and terms.</li>
+        <li>Forms the basis for supplier selection.</li>
+      </ul>`,
+
+    po: `
+      <h3>Purchase Order (PO) / Contract</h3>
+      <ul>
+        <li>Legally binding document between NIDA-Pakistan and supplier.</li>
+        <li>Issued only after approval by authorized personnel.</li>
+        <li>Defines scope, cost, delivery, and payment terms.</li>
+      </ul>`,
+
+    wo: `
+      <h3>Work Order (WO)</h3>
+      <ul>
+        <li>Used for maintenance and repair services.</li>
+        <li>Issued after bid analysis to ensure cost accuracy.</li>
+        <li>Covers vehicles, buildings, and equipment.</li>
+      </ul>`,
+
+    repeat: `
+      <h3>Repeat Orders</h3>
+      <ul>
+        <li>Allowed within 30 days of original purchase.</li>
+        <li>No new bidding required if price and specs remain unchanged.</li>
+        <li>Must reference original bid and approval.</li>
+      </ul>`,
+
+    evaluation: `
+      <h3>Evaluation of Offers</h3>
+      <ul>
+        <li>Conducted by the Bid/Purchase Committee.</li>
+        <li>Assesses price, quality, delivery, and supplier reliability.</li>
+        <li>Ensures fairness and value for money.</li>
+      </ul>`,
+
+    award: `
+      <h3>Awarding Contracts</h3>
+      <ul>
+        <li>Contract awarded to the most compliant bidder.</li>
+        <li>Considers both financial and qualitative factors.</li>
+        <li>Complete documentation retained for audit.</li>
+      </ul>`,
+
+    changes: `
+      <h3>Order Cancellation and Changes</h3>
+      <ul>
+        <li>NIDA-Pakistan may cancel or amend orders if required.</li>
+        <li>Changes may arise due to funding or mandate adjustments.</li>
+        <li>Suppliers compensated for accepted deliveries.</li>
+      </ul>`,
+
+    receiving: `
+      <h3>Receiving of Goods and Inspection</h3>
+      <ul>
+        <li>Goods verified against PO and specifications.</li>
+        <li>Quantity, quality, and labeling are checked.</li>
+        <li>Goods Received Note (GRN) is mandatory.</li>
+      </ul>`,
+
+    paymentGoods: `
+      <h3>Payment for Goods</h3>
+      <ul>
+        <li>Finance verifies PO, GRN, invoice, and tax documents.</li>
+        <li>Payments processed within three working days.</li>
+        <li>Compliance with donor requirements ensured.</li>
+      </ul>`,
+
+    paymentServices: `
+      <h3>Payment for Services</h3>
+      <ul>
+        <li>Services must be verified as satisfactorily delivered.</li>
+        <li>Matched against PO or contract.</li>
+        <li>Approval required before payment.</li>
+      </ul>`,
+
+    docs: `
+      <h3>Documentation and Records</h3>
+      <ul>
+        <li>All procurement records are systematically filed.</li>
+        <li>Ensures transparency, traceability, and audit readiness.</li>
+        <li>Supports reconstruction of procurement decisions.</li>
+      </ul>`,
+
+    summary: `
+      <h3>Summary of Procurement Thresholds</h3>
+      <ul>
+        <li>Cash purchases for low-value needs.</li>
+        <li>Quotations and RFQs for medium to high values.</li>
+        <li>National tendering for large procurements.</li>
+        <li>Ensures fairness, competition, and accountability.</li>
+      </ul>`
+  };
+
+  panel.innerHTML = data[step];
+}
+</script>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
+		<div id="UDUTU_Text1_EditContent" class="editPanel">
+			<p>text editing options</p>
+			<div id="UDUTU_Text1_btnAdd"></div>
+			<div id="UDUTU_Text1_btnEdit"></div>
+			<div id="UDUTU_Text1_btnSelect"></div>
+		</div>
+	</div>
+
+	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
+		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="Poor Performance vs. Misconduct and a whistle"  width='448' height='336' src='../media/content/OPM_ER_PM_01_difference_81351.png' srcWidth='448' srcHeight='336' ALT='Poor Performance vs. Misconduct and a whistle' >
+		
+		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
+			<p>media editing options</p>
+			<div id="UDUTU_MultiMedia1_btnAdd"></div>
+			<div id="UDUTU_MultiMedia1_btnEdit"></div>
+			<div id="UDUTU_MultiMedia1_btnSelect"></div>
+		</div>
+	
+		<div id="UDUTU_MultiMedia1_Caption" class="caption">
+			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
+			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
+				<p>edit caption</p>
+				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
+			</div>
+		</div>
+	</div>
+	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
+</body></html>

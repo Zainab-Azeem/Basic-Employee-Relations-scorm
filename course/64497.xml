@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Case Study 1: 1 of 3" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Case Study 1: 1 of 3&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+Sara Khan is employed as a Program Officer with NIDA-Pak under a regular contract, having successfully completed her three-month probation period. She has been with the organization for two years and has demonstrated strong performance in project implementation and donor reporting.&lt;br&gt;&lt;br&gt;
+Recently, it was reported to the HR Department that Sara frequently engages in unprofessional behavior during field missions, including the use of inappropriate language towards community members and undermining the authority of field coordinators. A formal complaint was submitted by a regional partner, stating that her behavior damaged NIDA-Pak’s reputation and strained community relations.&lt;br&gt;&lt;br&gt;
+Question (True/False): Because Sara has already completed her probation period and has a record of strong performance, the HR Department cannot take disciplinary action against her for misconduct.
+</question>
+<answers>
+  <option correct="0" display_order="0" alt="">True</option>
+  <option correct="1" display_order="1" alt="">False</option>
+</answers>
+  <correct audio="">That's right!  The correct response is False. Completion of probation does not exempt employees from accountability under organizational policies. According to NIDA-Pak’s HR Policy, misconduct that harms organizational reputation or breaches professional conduct standards may result in disciplinary action at any stage of employment. Depending on severity, HR may issue a written warning, require corrective measures such as training, or proceed with termination if behavior does not improve.</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is False. Completion of probation does not exempt employees from accountability under organizational policies. According to NIDA-Pak’s HR Policy, misconduct that harms organizational reputation or breaches professional conduct standards may result in disciplinary action at any stage of employment. Depending on severity, HR may issue a written warning, require corrective measures such as training, or proceed with termination if behavior does not improve.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

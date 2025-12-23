@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Case Study 2: 2 of 3" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Case Study 2: 2 of 3&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+During a recent recruitment drive, NIDA-Pak advertised a position for Regional Program Coordinator, explicitly requiring a Master’s degree with at least 5 years of relevant experience. One applicant, Hina, holds a Bachelor’s degree but has 8 years of progressive experience in program management, meeting all other requirements.&lt;br&gt;&lt;br&gt;
+Question: Can Hina be shortlisted despite not holding a Master’s degree?
+</question>
+<answers>
+  <option correct="0" display_order="0">Yes</option>
+  <option correct="1" display_order="1">No</option>
+</answers>
+<correct audio="">That's right! The correct response is No. Where the vacancy advert clearly specifies a Master’s degree as a minimum requirement, candidates who do not meet that qualification should not be shortlisted. Any deviation (e.g., accepting equivalent experience) must be explicitly permitted in the job advertisement or authorised in writing by HR or the appointing authority prior to shortlisting.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is No. Where the vacancy advert clearly specifies a Master’s degree as a minimum requirement, candidates who do not meet that qualification should not be shortlisted. Any deviation (e.g., accepting equivalent experience) must be explicitly permitted in the job advertisement or authorised in writing by HR or the appointing authority prior to shortlisting.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

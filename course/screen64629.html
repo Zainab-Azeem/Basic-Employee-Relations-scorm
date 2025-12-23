@@ -1,0 +1,71 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=true;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head>  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="screenUtils.js"></script>
+  <script type="text/javascript" src="interactiveUtils.js"></script>
+  <script type="text/javascript">
+    var intCorrectGoToScreenID = -1;
+    var intIncorrectGoToScreenID = -1;
+    var intPartialGoToScreenID = -1; 
+    var xmlFile ='64629.xml';
+    var themeDir = 'themes/selkirk/'; 
+  </script>       
+  <script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>  
+  <script type="text/javascript" src="assessment.js"></script>   
+  <script type="text/javascript" src="multiplechoice.js"></script>
+</head>   
+<body class="contentBody">  
+  <div id="Water_Mark"></div>
+  <div id="assessment" class="multiplechoice mc8options">
+    <div id="panel">              
+      <a class="close-btn" href="#close"></a>
+      <div id="instructions" class="instructions">                </div>
+      <div id="correct" class="feedback">              </div>
+      <div id="incorrect" class="feedback">              </div>
+      <div id="partial" class="feedback">              </div>
+      <div id="show_me" class="feedback">              </div>
+      <div class="button"><a href="#close">OK</a></div>          </div>
+      <div id="questionOptions">              
+        <div id="divQuestionText" class="question"></div>
+        <div id="option1" class="option">               
+          <a href="#select"></a>
+        </div> 
+        <div id="option2" class="option"> 
+          <a href="#select"></a>
+        </div> 
+        <div id="option3" class="option">
+          <a href="#select"></a>
+        </div>
+        <div id="option4" class="option">
+          <a href="#select"></a>
+        </div> 
+        <div id="option5" class="option">
+          <a href="#select"></a>
+        </div>
+        <div id="option6" class="option">
+          <a href="#select"></a>
+        </div>
+        <div id="option7" class="option">
+          <a href="#select"></a>
+        </div>
+        <div id="option8" class="option">
+          <a href="#select"></a>
+        </div>
+      </div>
+      <div id="buttonrow">
+        <div id="instructBtn" class="button">
+          <a href='#showinstructions'>instructions</a>
+        </div>
+        <div id="showBtn" class="button disabled">
+          <a href='#showanswers'>show me</a>
+        </div>
+        <div id="checkBtn" class="button">
+          <a href='#checkanswers'>i'm done</a>
+        </div>
+      </div>
+    </div>
+    <div id="audio"></div>
+    <script type="text/javascript">
+      initAssessment('64629.xml','themes/selkirk/');      
+    </script>
+    <span id="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
+    <script type="text/javascript">        InitSound();      </script>
+  </body></html>

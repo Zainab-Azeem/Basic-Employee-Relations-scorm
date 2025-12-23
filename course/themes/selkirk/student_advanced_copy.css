@@ -1,0 +1,37 @@
+body {
+background:#FFF url(content_bg.gif) 0 99px repeat-x;
+}
+
+.nav {
+background:#9cbbd8 url(nav_bg.gif) no-repeat;
+}
+
+/* delete the item below if you want a background image on your navigation bar */
+/*.nav {
+background-image:none;
+}
+
+*/
+
+/* update these numbers to adjust the spacing around your logo */
+.nav .logo {
+margin-top:0px;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:0px;
+}
+
+/* update these numbers to adjust the spacing around the buttons */
+.nav .button {
+margin-top:0px;
+margin-left:0px;
+margin-bottom:0px;
+margin-right:10px;
+}
+
+/* to remove the background image and use the background color you selected in 'Step 3: Text Styles' replace "background-image:url(infobar_bg.gif);" with "background-image:none;" */
+
+.infoBar {
+background-image:url(infobar_bg.gif);
+}
+

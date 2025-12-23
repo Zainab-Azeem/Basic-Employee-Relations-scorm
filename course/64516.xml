@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 9 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f4f9fd; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>17.3. Salary Revision:</b><br>
+      NIDA-Pak may revise regular employees’ salaries annually based on inflation, market price assessments, and organizational budget. The percentage increase applies to the basic salary of each eligible staff.
+      <br><br>
+
+      <b>17.4. Advances:</b><br>
+      <ul>
+        <li><b>17.4.1 Advances on Salaries:</b> Employees may request an advance before the 10th of each month, limited to 50% of monthly salary, payable on the 15th.</li>
+        <li><b>17.4.2 Professional Advances:</b> Employees are responsible for all professional advances for organizational operations. Advances must be cleared weekly or before leave. Only one professional advance at a time is allowed. Outstanding advances are settled upon contract termination; missing amounts are deducted, and legal action may be taken if reimbursement is refused.</li>
+      </ul>
+      <br>
+
+      <b>18. Expenses and Loans:</b><br>
+      <ul>
+        <li>All business-related expenses must be pre-approved in writing by the line manager to qualify for reimbursement.</li>
+        <li>NIDA-Pak does not provide loans to employees.</li>
+      </ul>
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock9').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock9" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 9 of 9</b><br><br>
+      Which of the following best summarizes NIDA-Pak’s policies on salary revision, advances, expenses, and loans?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      Salaries are revised annually based on inflation and budget, salary advances can be requested within limits, professional advances must be cleared promptly, business expenses require prior approval, and NIDA-Pak does not provide loans.
+    </option>
+    <option correct="0" display_order="1">
+      Salaries are fixed, employees can request unlimited advances, expenses do not require approval, and loans may be granted on special occasions.
+    </option>
+    <option correct="0" display_order="2">
+      Salary revisions depend solely on performance reviews, advances are optional, and NIDA-Pak provides loans under management discretion.
+    </option>
+    <option correct="0" display_order="3">
+      Employees manage all advances independently, expenses are reimbursed without approval, and salary revision is decided every two years.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! NIDA-Pak revises salaries annually, regulates advances responsibly, requires prior approval for expenses, and does not grant loans, ensuring accountability and financial discipline.
+  </correct>
+  <incorrect audio="">
+    Not correct. The correct policy states that salaries may be revised annually, salary and professional advances are regulated, business expenses require pre-approval, and loans are not provided.
+  </incorrect>
+  <partial audio="">Select one option only.</partial>
+</content>

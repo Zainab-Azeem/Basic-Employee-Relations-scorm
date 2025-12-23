@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 32 of 39" closeText="OK">
+    <question>Conduct and performance actions may be taken against bargaining unit employees, without regard to the collective bargaining agreement.</question>
+  <answers>
+    <option correct="0" display_order="0" alt="">True</option>
+    <option correct="1" display_order="1" alt="">False</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

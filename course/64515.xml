@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 8 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f4f9fd; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>17. Remunerations, Expenses, Loan and Taxes:</b><br>
+      Regular and contractual employees shall draw their pay, allowances, and fringe benefits as stated in their letter of appointment, 
+      subject to the terms and conditions mentioned. Salaries are paid on the last day of each month in Pakistani Rupees, 
+      through bank transfer or cheque.
+      <br><br>
+
+      <b>17.1. Payment of Tax:</b><br>
+      <ul>
+        <li>Employees are responsible for paying taxes; however, income tax is calculated on the estimated annual liability and deducted monthly.</li>
+        <li>The deducted amount is deposited into the government treasury under prevailing tax law.</li>
+        <li>While employees must file their own tax returns, NIDA-Pak’s Finance Section may assist in completing forms.</li>
+        <li>Any new taxes imposed by the Government shall be dealt with in line with tax laws.</li>
+      </ul>
+      <br>
+
+      <b>17.2. 13th Month Salary:</b><br>
+      <ul>
+        <li>Salaries are paid on a 13-month basis.</li>
+        <li>The 13th month salary is granted to every regular employee completing one year of service.</li>
+        <li>It equals one basic monthly salary (excluding overtime, bonus, or allowances).</li>
+        <li>It is paid in two instalments: one before Eid-ul-Fitr or other religious events, and the second on Eid-ul-Azha or with December salary, subject to availability of funds/budget.</li>
+      </ul>
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock8').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock8" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 8 of 9</b><br><br>
+      What is the correct understanding of NIDA-Pak’s remuneration and taxation policies, including the 13th month salary?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      Salaries are paid monthly in PKR, income tax is deducted and deposited by NIDA-Pak while employees file returns, and a 13th month salary is paid in two instalments to regular staff completing one year of service.
+    </option>
+    <option correct="0" display_order="1">
+      Salaries are paid quarterly, tax filing is handled entirely by NIDA-Pak, and the 13th month salary is an additional bonus based on performance.
+    </option>
+    <option correct="0" display_order="2">
+      Employees receive salaries in foreign currency, taxes are optional, and the 13th month salary is given only when approved by supervisors.
+    </option>
+    <option correct="0" display_order="3">
+      NIDA-Pak pays salaries on a 12-month basis only, with no provision for a 13th month, and employees manage all tax deductions independently.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! NIDA-Pak ensures monthly salary payments in PKR, deducts and deposits income tax as per law, assists with tax forms, 
+    and provides a 13th month salary in two instalments to eligible staff.
+  </correct>
+  <incorrect audio="">
+    Not correct. The policy states that NIDA-Pak deducts income tax monthly, assists with filing, and provides a 13th month salary 
+    (equal to basic pay) in two instalments to regular employees who have completed one year of service.
+  </incorrect>
+  <partial audio="">Select one option only.</partial>
+</content>

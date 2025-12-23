@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 1 of 5" closeText="OK">
+  <instructions>Select one correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>A job tryout is best described as the:</question>
+  <answers>
+    <option correct="0" display_order="0">Interview.</option>
+    <option correct="0" display_order="1">Performance appraisal period.</option>
+    <option correct="0" display_order="2">Performance improvement plan.</option>
+    <option correct="1" display_order="3">Probationary period or trial period.</option>
+  </answers>
+  <correct audio="">That's right! The correct response is the "probationary period or trial period."</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is the "probationary period or trial period."</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

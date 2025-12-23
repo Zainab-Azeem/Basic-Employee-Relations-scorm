@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 3 of 5" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which of the following is NOT an acceptable workplace behaviour?</question>
+  <answers>
+    <option correct="0" display_order="0">Respecting cultural diversity</option>
+    <option correct="1" display_order="1">Using insulting language</option>
+    <option correct="0" display_order="2">Providing equal opportunities</option>
+    <option correct="0" display_order="3">Listening to different opinions.</option>
+    <!-- <option correct="1" display_order="4">Provide the basis on which OPM, MSPB, and the EEOC on behalf of the President and the Congress, holds agencies and individuals accountable.</option> -->
+  </answers>
+  <correct audio="">That's right!  That's the correct answer.Insulting language is a form of harassment and disrespect.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Insulting language is a form of harassment and disrespect.</incorrect>
+  <!-- <partial audio="">Not quite. All of the  items listed are correct.</partial> -->
+  <show_me audio="">
+  </show_me>
+</content>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 10 of 10" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+   <question>Which of the following is considered a basic procurement document?</question>
+  <answers>
+    <option correct="1">Waybill</option>
+    <option correct="0">Employee attendance sheet</option>
+    <option correct="0">Travel itinerary</option>
+    <option correct="0">Event invitation</option>
+  </answers>
+  <correct>Correct! A Waybill is a required basic document.</correct>
+  <incorrect>The correct answer is Waybill.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

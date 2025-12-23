@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 39 of 39" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>A union representative is entitled to “official time” for</question>
+  <answers>
+    <option correct="0" display_order="0" alt="">Internal union business, such as elections for union office.</option>
+    <option correct="0" display_order="1" alt="">Soliciting membership.</option>
+    <option correct="0" display_order="2" alt="">Collecting dues.</option>
+    <option correct="1" display_order="3" alt="">Time spent negotiating a collective bargaining agreement.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

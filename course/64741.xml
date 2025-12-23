@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 4 of 8" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which of the following is part of the procurement process?</question>
+  <answers>
+    <option correct="1">Comparative Statements</option>
+    <option correct="0">Fuel intake reports</option>
+    <option correct="0">Salary slips</option>
+    <option correct="0">Labour attendance sheets</option>
+  </answers>
+  <correct>Correct! Comparative Statements are key in procurement.</correct>
+  <incorrect>Incorrect. The correct answer is Comparative Statements.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

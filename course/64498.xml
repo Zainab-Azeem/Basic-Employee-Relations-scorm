@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Case Study 1: 2 of 3" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Case Study 1: 2 of 3&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+Ali Raza is employed as a Finance and Compliance Officer at NIDA-Pak. His role requires a high level of integrity as he manages donor funds and ensures compliance with financial regulations. He has been with the organization for three years and has consistently received positive performance evaluations.&lt;br&gt;&lt;br&gt;
+Recently, it was discovered during an internal audit that Ali approved several advance payments to vendors without the required documentation and bypassed standard approval procedures. While no direct evidence of fraud was found, his negligence exposed the organization to financial risk and donor mistrust.&lt;br&gt;&lt;br&gt;
+Question (True/False): The fact that Ali did not personally gain financially means that disciplinary action is not necessary.
+</question>
+<answers>
+  <option correct="0" display_order="0" alt="">True</option>
+  <option correct="1" display_order="1" alt="">False</option>
+</answers>
+<correct audio="">That's right! The correct response is False. Even without personal gain, Ali's negligence violated financial protocols, created risk, and damaged donor confidence, which warrants disciplinary action.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is False. Even without personal gain, Ali's negligence violated financial protocols, created risk, and damaged donor confidence, which warrants disciplinary action.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

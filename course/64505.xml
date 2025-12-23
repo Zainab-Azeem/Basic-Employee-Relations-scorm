@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Nexus Exercise 2 of 4" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Nexus Exercise 2 of 4&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+Review the statement below and determine if it reflects proper HR practice.  
+An employee’s performance must be formally reviewed at the end of the probation period to confirm continuation of employment.</question>
+<answers>
+  <option correct="1" display_order="0">True</option>
+  <option correct="0" display_order="1">False</option>
+</answers>
+<correct audio="">That's right! The correct response is True. The HR Policy requires that all probationary employees undergo a formal performance review before confirmation of their contract. This ensures fairness, transparency, and alignment with organizational expectations.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is True. The HR Policy mandates that probation reviews are conducted before confirming an employee’s continued employment.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

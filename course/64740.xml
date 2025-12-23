@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 3 of 8" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which document must be included in an employee’s personal file?</question>
+  <answers>
+    <option correct="1">Degrees and experience certificates</option>
+    <option correct="0">Warehouse inspection reports</option>
+    <option correct="0">Fuel consumption logs</option>
+    <option correct="0">Distribution sheets</option>
+  </answers>
+  <correct>Correct! Educational and experience documents are required.</correct>
+  <incorrect>Incorrect. The right answer is degrees and experience certificates.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

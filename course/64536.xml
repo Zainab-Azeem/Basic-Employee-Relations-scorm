@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 8 of 8" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which of the following best describe the purpose of job enlargement at NIDA-Pak?</question>
+  <answers>
+    <option correct="1" display_order="0">It increases the scope of a job by extending duties and responsibilities</option>
+    <option correct="1" display_order="1">It helps build employee capacity and reduce boredom</option>
+    <option correct="0" display_order="2">It guarantees additional salary for every employee</option>
+    <option correct="1" display_order="3">It enhances employee motivation and productivity at various levels</option>
+  </answers>
+  <correct audio="">That's right! The correct responses are "It increases the scope of a job by extending duties and responsibilities," "It helps build employee capacity and reduce boredom," and "It enhances employee motivation and productivity at various levels."</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct responses are "It increases the scope of a job by extending duties and responsibilities," "It helps build employee capacity and reduce boredom," and "It enhances employee motivation and productivity at various levels."</incorrect>
+  <partial audio="">Not quite. The correct responses are "It increases the scope of a job by extending duties and responsibilities," "It helps build employee capacity and reduce boredom," and "It enhances employee motivation and productivity at various levels."</partial>
+  <show_me audio="">
+  </show_me>
+</content>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 5 of 10" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+   <question>Which of the following is included in the logistics Plan of Action?</question>
+  <answers>
+    <option correct="1">Field structure</option>
+    <option correct="0">Staff holiday schedules</option>
+    <option correct="0">Public event planning</option>
+    <option correct="0">Brand image improvement</option>
+  </answers>
+  <correct>Correct! Field structure is part of the logistics plan of action.</correct>
+  <incorrect>Incorrect. Field structure is the correct answer.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

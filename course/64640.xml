@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 3 of 5" closeText="OK">
+  <instructions>Select one correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>In general, probationary period employees can be terminated for any perceived deficiency in performance or conduct.</question>
+  <answers>
+    <option correct="1" display_order="0">True</option>
+    <option correct="0" display_order="1">False</option>
+  </answers>
+  <correct audio="">That's right!  The correct response is True. In general, probationary employees can be terminated for any perceived deficiency in performance or conduct, with minimal procedural requirements and without the need to meet the stringent "efficiency of the service" standard that governs the removal of tenured employees.</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is True. In general, probationary employees can be terminated for any perceived deficiency in performance or conduct, with minimal procedural requirements and without the need to meet the stringent "efficiency of the service" standard that governs the removal of tenured employees.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

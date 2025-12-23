@@ -1,0 +1,15 @@
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 4 of 6" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answer.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>How many working days of earned leave are credited annually to an employee?</question>
+  <answers>
+    <option correct="0" display_order="0">12 days</option>
+    <option correct="1" display_order="1">24 days</option>
+    <option correct="0" display_order="2">18 days</option>
+    <option correct="0" display_order="3">30 days</option>
+  </answers>
+  <correct audio="">Correct! Employees are entitled to 24 working days of earned leave per year.</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is 24 days.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
+</content>

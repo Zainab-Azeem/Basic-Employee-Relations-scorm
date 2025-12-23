@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 24 of 39" closeText="OK">
+    <question>How long is the probationary period for an employee who is given a career-conditional appointment?</question>
+  <answers>
+    <option correct="1" display_order="0" alt="">One year</option>
+    <option correct="0" display_order="1" alt="">Two years</option>
+    <option correct="0" display_order="2" alt="">Three months</option>
+    <option correct="0" display_order="3" alt="">Six months</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

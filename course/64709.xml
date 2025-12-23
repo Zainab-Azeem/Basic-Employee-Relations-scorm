@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 13 of 39" closeText="OK">
+    <question>As an ER Specialist, you need to review accommodation requests to make sure the employee is requesting a reasonable accommodation. Which type of accommodation category will you deal with most often?</question>
+  <answers>
+    <option correct="0" display_order="0" alt="">Modification or adjustment to a job application process to permit an individual with a disability to be considered for a job.</option>
+    <option correct="1" display_order="1" alt="">Modification or adjustment necessary to enable a qualified individual with a disability to perform the essential function of the job.</option>
+    <option correct="0" display_order="2" alt="">Modification or adjustments that enable employees with disability to enjoy equal benefits and privileges of employment.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

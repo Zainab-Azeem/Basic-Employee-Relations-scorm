@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 8 of 8" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Who conducts the external audit of NIDA-Pakistan's financial transactions?</question>
+  <answers>
+    <option correct="1">An independent firm of chartered accountants</option>
+    <option correct="0">Internal finance team</option>
+    <option correct="0">Project managers</option>
+    <option correct="0">Local vendors</option>
+  </answers>
+  <correct>Correct! External audits are done by independent chartered accountants.</correct>
+  <incorrect>Incorrect. The correct answer is an independent firm of chartered accountants.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

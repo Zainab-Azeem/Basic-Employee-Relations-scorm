@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 8 of 10" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+ <question>Which item must be included on a Purchase Request Form (PRF)?</question>
+  <answers>
+    <option correct="1">Proper coding of account, project, and donor</option>
+    <option correct="0">Personal preferences of the requester</option>
+    <option correct="0">Photos of the supplier</option>
+    <option correct="0">Internal office politics</option>
+  </answers>
+  <correct>Correct! Proper coding is required on every PRF.</correct>
+  <incorrect>The correct answer is proper coding of account, project, and donor.</incorrect>
+  <partial audio="">Not quite. The correct responses are "Formal training, On-the-job training, Mentoring and coaching, and Feedback."</partial>
+  <show_me audio="">
+  </show_me>
+</content>

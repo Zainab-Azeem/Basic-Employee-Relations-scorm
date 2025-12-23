@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 4 of 39" closeText="OK">
+    <question>According to one of the Nine Merit System Principles, employees will have better organizational and individual performance if they</question>
+  <answers>
+    <option correct="1" display_order="0" alt="">Are educated and trained.</option>
+    <option correct="0" display_order="1" alt="">Are in favor of the current Presidential administration.</option>
+    <option correct="0" display_order="2" alt="">Have obtained a college degree.</option>
+    <option correct="0" display_order="3" alt="">Enjoy their coworkers and work environment.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

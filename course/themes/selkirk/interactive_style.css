@@ -1,0 +1,82 @@
+.button {
+font-family:Verdana, Geneva, sans-serif;
+color:#FFFFFF;
+font-weight:bold;
+font-size:13px;
+background-color:#23408C;
+}
+
+.feedback {
+font-family:Verdana, Geneva, sans-serif;
+color:#333333;
+font-weight:normal;
+font-size:13px;
+}
+
+.question {
+font-family:Verdana, Geneva, sans-serif;
+color:#333333;
+font-weight:normal;
+font-size:13px;
+}
+
+.option {
+font-family:Verdana, Geneva, sans-serif;
+color:#333333;
+font-weight:normal;
+font-size:13px;
+}
+
+.slideText {
+font-family:Arial;
+color:#23408C;
+font-weight:normal;
+font-size:28px;
+text-align:center;
+}
+
+.caption {
+font-family:Arial;
+color:#333333;
+font-weight:normal;
+font-size:11px;
+font-style:italic;
+text-align:center;
+}
+
+.pageTitle {
+font-family:Arial;
+color:#23408C;
+font-weight:bold;
+font-size:24px;
+text-align:center;
+}
+
+.instructions {
+font-family:Arial;
+color:#333333;
+font-weight:bold;
+font-size:12px;
+text-align:center;
+}
+
+.title {
+font-family:Arial;
+color:#23408C;
+font-weight:bold;
+font-size:20px;
+text-align:center;
+}
+
+.target {
+background-color:#0982AD;
+}
+
+.text {
+font-family:Arial;
+color:#333333;
+font-weight:normal;
+font-size:14px;
+text-align:left;
+}
+

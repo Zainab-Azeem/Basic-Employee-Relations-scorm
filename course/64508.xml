@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 1 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f4f8fb; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>8.3. Emergency Recruitment (Walk-in or Fast-Track):</b><br>
+      In emergency or humanitarian response situations, NIDA-Pak may adopt expedited recruitment methods such as walk-in interviews or headhunting to ensure rapid deployment of qualified staff. 
+      Safeguards will be applied to ensure accountability and compliance with minimum standards.
+      <br><br>
+      <b>8.4. General Recruitment Conditions:</b><br>
+      The recruitment policy of NIDA-Pak gives the following conditions for recruitment:
+      <ul>
+        <li>The minimum employment age is 18 years.</li>
+        <li>All applicants must meet the qualifications and experience as stated in the job description.</li>
+        <li>Reference and background checks are mandatory before final appointment.</li>
+      </ul>
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock1').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock1" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 1 of 9</b><br><br>
+      Under NIDA-Pak’s recruitment policy, which of the following statements is correct?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      Emergency recruitment can be conducted through walk-in interviews, but all applicants must still meet minimum qualifications and undergo background checks.
+    </option>
+    <option correct="0" display_order="1">
+      In emergency recruitment, NIDA-Pak may waive minimum qualifications and background checks to speed up hiring.
+    </option>
+    <option correct="0" display_order="2">
+      The minimum employment age can be relaxed in emergencies to allow faster recruitment.
+    </option>
+    <option correct="0" display_order="3">
+      Reference checks are optional during humanitarian response recruitment drives.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! Even in emergency recruitment situations, NIDA-Pak requires candidates to meet the minimum qualifications and to undergo reference and background checks to ensure accountability.
+  </correct>
+  <incorrect audio="">
+    Sorry, that’s not correct. The correct answer is that emergency recruitment may use walk-in methods, but qualifications and background checks are still mandatory under NIDA-Pak’s policy.
+  </incorrect>
+  <partial audio="">Select one item only.</partial>
+</content>

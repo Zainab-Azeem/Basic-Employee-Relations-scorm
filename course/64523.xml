@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 1 of 6" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which of the following must be included in an employee's personnel record at NIDA-Pak?</question>
+  <answers>
+    <option correct="1" display_order="0">Copy of Job Description</option>
+    <option correct="1" display_order="1">National Identity Card (CNIC) copy</option>
+    <option correct="0" display_order="2">Bank Account Statement</option>
+    <option correct="1" display_order="3">Employment History (Experience Details)</option>
+  </answers>
+  <correct audio="">That's right! The personnel file must include job description, CNIC copy, and employment history.</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct responses are Job Description, CNIC copy, and Employment History.</incorrect>
+  <partial audio="">Not quite. The correct responses are Job Description, CNIC copy, and Employment History.</partial>
+  <show_me audio=""></show_me>
+</content>

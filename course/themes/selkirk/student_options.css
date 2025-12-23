@@ -1,0 +1,54 @@
+.glossary {
+visibility:visible;
+}
+
+.courseMap {
+visibility:hidden;
+width:0;
+overflow:hidden;
+}
+
+.mute {
+visibility:hidden;
+width:0;
+overflow:hidden;
+}
+
+.exit {
+visibility:visible;
+}
+
+.home {
+visibility:visible;
+}
+
+.refresh {
+visibility:hidden;
+width:0;
+overflow:hidden;
+}
+
+.next {
+visibility:visible;
+}
+
+.previous {
+visibility:visible;
+}
+
+.resources {
+visibility:visible;
+}
+
+body {
+}
+
+.nav {
+}
+
+.launchBox .nav, #CourseGlossary .nav, #CourseGlossary .infoBar, #StudentCourseMap .nav, #StudentCourseMap .infoBar {
+}
+
+.infoBar {
+}
+

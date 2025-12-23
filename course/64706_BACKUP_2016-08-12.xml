@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 10 of 39" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>How should a supervisor discipline an employee engaging in misconduct?</question>
+  <answers>
+    <option correct="0" display_order="0" alt="">Use a “cookie-cutter” approach to make sure you aren’t accused of favoritism.</option>
+    <option correct="0" display_order="1" alt="">Take the maximum level of discipline appropriate to correct the behavior.</option>
+    <option correct="0" display_order="2" alt="">Save time by eliminating examination of all available information.</option>
+    <option correct="1" display_order="3" alt="">Take the minimum level of discipline appropriate to correct the behavior.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

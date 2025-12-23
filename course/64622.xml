@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 3 of 10" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+   <question>What is the role of logistics in relation to programme activities?</question>
+  <answers>
+    <option correct="1">Define logistics needs to achieve programme goals</option>
+    <option correct="0">Decide what items will be distributed</option>
+    <option correct="0">Approve donor funding</option>
+    <option correct="0">Lead beneficiary selection</option>
+  </answers>
+  <correct>Correct! Logistics ensures requirements needed to meet programme goals.</correct>
+  <incorrect>The correct answer is: Define logistics needs to achieve programme goals.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

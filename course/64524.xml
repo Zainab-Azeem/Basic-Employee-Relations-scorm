@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 2 of 6" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answer.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Who can authorize access to an employee’s personnel file?</question>
+  <answers>
+    <option correct="0" display_order="0">HR Section Head</option>
+    <option correct="0" display_order="1">Regional Manager</option>
+    <option correct="1" display_order="2">Chief Executive Officer</option>
+    <option correct="0" display_order="3">Immediate Supervisor</option>
+  </answers>
+  <correct audio="">Correct! Only the Chief Executive Officer can authorize access to personnel files.</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is the Chief Executive Officer.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
+</content>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 2 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f4f8fb; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>8.5. Application Form:</b><br>
+      Each applicant is required to fill an application form, for the positions advertised, which is provided free of cost by the HR Department (Specimen attached as per Annex “A”). 
+      This application form must be filled by the applicant himself and must reach on or before the prescribed date to the HR Section. 
+      The form comprises four sections:
+      <ul>
+        <li>Personal Data</li>
+        <li>Education Qualification</li>
+        <li>Experience Details</li>
+        <li>Skills possessed by the individual</li>
+      </ul>
+      <i>Note: In case of support staff, application form is not mandatory.</i>
+      <br><br>
+
+      <b>8.6. Long Listing:</b><br>
+      After advertisement, applicants send their resume and covering letter through email or courier. 
+      The HR Department creates a pool of candidates, sorts applications/CVs, and prepares the long listing to share with the concerned Head of Department for short listing.
+      <br><br>
+
+      <b>8.7. Short Listing:</b><br>
+      The Head of Department, facilitated by HR, evaluates long-listed resumes on the basis of experience, qualification, gender, age, and set criteria. 
+      Suitable candidates are invited for test/interview. 
+      The HR Committee validates the short listing, then finalizes and sends it to HR for further process.
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock2').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock2" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 2 of 9</b><br><br>
+      According to NIDA-Pak’s recruitment process, which of the following statements is correct?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      The application form is mandatory for advertised posts (except support staff) and must be completed by the applicant, while short listing is validated by the HR Committee.
+    </option>
+    <option correct="0" display_order="1">
+      Application forms may be filled by anyone on behalf of the applicant, and the HR Committee does not review the short listing.
+    </option>
+    <option correct="0" display_order="2">
+      Long listing is prepared directly by the Head of Department without involvement of the HR Department.
+    </option>
+    <option correct="0" display_order="3">
+      Support staff are always required to fill the application form without exception.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! For advertised positions, applicants must complete the application form themselves (except support staff), and the HR Committee validates the short listing prepared with HR’s facilitation.
+  </correct>
+  <incorrect audio="">
+    Sorry, that’s not correct. The correct statement is that applicants must personally fill the application form (except for support staff), and the HR Committee validates the short listing.
+  </incorrect>
+  <partial audio="">Select one item only.</partial>
+</content>

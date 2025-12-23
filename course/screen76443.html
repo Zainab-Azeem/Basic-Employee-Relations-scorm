@@ -1,0 +1,63 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
+<div id="Water_Mark"></div>
+	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
+		<div class="textHeadline" id="UDUTU_Text1_Headline">Final Assessment Results</div>
+
+
+
+
+<!-- THE FOLLOWING WAS EDITED BY DAN HERR, AUGUST 2016 TO SET COMPLETION IF ASSESSMENT IS PASSED -->
+<!--
+		<div class="textContent" id="UDUTU_Text1_Content"><p><b>Your score:&nbsp;</b><span id="divScore">(Auto-generated SCORE will appear here.)</span>%<script>try{var score = Math.round(UDUTU_API.generateScore());document.getElementById('divScore').innerHTML = score;}catch(ex){}</script></p><p><br /></p><span id="spnPassedText">Great job! You passed the course. Select the Exit button to exit the course and print your certificate of completion.</span><span id="spnFailedText">Sorry, you did not achieve the minimum score of 70%. To retake the assessment, select the Course Menu button and then select the Exit button to exit the course. At any time, restart the course to try again.</span><script>try{var score1 = Math.round(UDUTU_API.generateScore());if (score1 >= (UDUTU_API.gblPassingScore * 100)){document.getElementById('spnFailedText').innerHTML = '';}else{document.getElementById('spnPassedText').innerHTML = '';}}catch(ex){}</script></div>
+-->
+		<div class="textContent" id="UDUTU_Text1_Content"><p><b>Your score:&nbsp;</b><span id="divScore">(Auto-generated SCORE will appear here.)</span>%<script>try{var score = Math.round(UDUTU_API.generateScore());document.getElementById('divScore').innerHTML = score;}catch(ex){}</script></p><p><br /></p>
+			<span id="spnPassedText">Great job! You passed the course. Select the Exit button to exit the course and print your certificate of completion.</span>
+			<span id="spnFailedText">Sorry, you did not achieve the minimum score of 70%. To retake the assessment, select the Course Menu button and then select the Exit button to exit the course. At any time, restart the course to try again.</span>
+			<script>
+			try {
+				var score1 = Math.round(UDUTU_API.generateScore());
+				if (score1 >= (UDUTU_API.gblPassingScore * 100)) {
+					//PASSED
+					document.getElementById('spnFailedText').innerHTML = '';
+					//var theAPI = getUDUTU_API();
+					//theAPI.setCompleted();
+					UDUTU_API.setCompleted();
+				} else {
+					document.getElementById('spnPassedText').innerHTML = '';
+				}
+			}catch(ex){}
+
+			</script>
+		</div>
+<!-- END OF EDIT -->
+
+
+
+		<div id="UDUTU_Text1_EditContent" class="editPanel">
+			<p>text editing options</p>
+			<div id="UDUTU_Text1_btnAdd"></div>
+			<div id="UDUTU_Text1_btnEdit"></div>
+			<div id="UDUTU_Text1_btnSelect"></div>
+		</div>
+	</div>
+
+	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
+		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="File on a tablet"  width='448' height='336' src='../media/content/EMR_99_81596.png' srcWidth='448' srcHeight='336' ALT='File on a tablet' >
+
+		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
+			<p>media editing options</p>
+			<div id="UDUTU_MultiMedia1_btnAdd"></div>
+			<div id="UDUTU_MultiMedia1_btnEdit"></div>
+			<div id="UDUTU_MultiMedia1_btnSelect"></div>
+		</div>
+
+		<div id="UDUTU_MultiMedia1_Caption" class="caption">
+			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
+			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
+				<p>edit caption</p>
+				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
+			</div>
+		</div>
+	</div>
+	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
+</body></html>

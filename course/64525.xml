@@ -1,0 +1,15 @@
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 3 of 6" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which of the following are requirements for internship applicants at NIDA-Pak?</question>
+  <answers>
+    <option correct="1" display_order="0">Recommendation letter from educational institution</option>
+    <option correct="1" display_order="1">Copy of CNIC and testimonials</option>
+    <option correct="0" display_order="2">Two years of prior work experience</option>
+    <option correct="1" display_order="3">Photograph and CV submission</option>
+  </answers>
+  <correct audio="">That's right! Applicants must submit a recommendation letter, CNIC with testimonials, and a CV with photograph.</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct responses are recommendation letter, CNIC/testimonials, and CV with photograph.</incorrect>
+  <partial audio="">Not quite. The correct responses are recommendation letter, CNIC/testimonials, and CV with photograph.</partial>
+  <show_me audio=""></show_me>
+</content>

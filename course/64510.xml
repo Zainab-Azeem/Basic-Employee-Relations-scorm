@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 3 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f4f8fb; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>8.8. Written Test:</b><br>
+      Applicants may be required to sit for a written test. General tests are prepared by the HR Department (specimen Annex “B”). 
+      For technical positions, the relevant Program/Project Manager designs the technical test and shares it with HR for administration under HR’s supervision.
+      <br><br>
+
+      <b>8.9. Interview:</b><br>
+      Certain qualities, such as confidence, mindset, attitude, and interpersonal capability, are best assessed in a face-to-face interview. 
+      Interviews are usually conducted in panels nominated by the approving authority of the post/cadre. 
+      HR participation is mandatory for middle and upper management positions, while regional office admins may assist in interviews at field level. 
+      If HR is not available, the concerned regional admin participates. Proper interview grids and evaluation sheets are used, and scoring sheets must be signed by the panel and approved by the CEO (specimen Annex “C”).
+      <br><br>
+
+      <b>8.10. Appointment:</b><br>
+      Before final appointment, reference checks are completed by telephone or email (specimen Annex “D”). 
+      The appointing authority varies by level:
+      <ul>
+        <li>CEO appointment – approved by the Board of Directors or delegated member</li>
+        <li>Management staff – approved by the Board of Directors or its delegate</li>
+        <li>Professional staff – approved by the Chief Executive Officer</li>
+        <li>Support staff – approved by the CEO, relevant Director/Manager Program, Coordinator, or Regional Head</li>
+      </ul>
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock3').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock3" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 3 of 9</b><br><br>
+      Which of the following statements best reflects NIDA-Pak’s recruitment policy for written tests, interviews, and appointments?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      Written tests may be general or technical, interviews are conducted by panels with HR involvement for higher posts, and final appointments require reference checks and approval by the designated authority.
+    </option>
+    <option correct="0" display_order="1">
+      Written tests are only required for technical positions, and interviews may be conducted individually without HR involvement or approval from the CEO.
+    </option>
+    <option correct="0" display_order="2">
+      Reference checks are optional, and the appointing authority for all staff categories rests solely with the HR Department.
+    </option>
+    <option correct="0" display_order="3">
+      Interviews are always conducted solely by the Chief Executive Officer without panel participation or scoring sheets.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! Written tests can be general or technical, interviews are panel-based with HR involvement for higher positions, and appointments always require reference checks and approval by the appropriate authority.
+  </correct>
+  <incorrect audio="">
+    Sorry, that’s not correct. The correct answer is that written tests may be general or technical, interviews are panel-based with HR involvement for middle/upper management, and appointments require reference checks and proper authority approval.
+  </incorrect>
+  <partial audio="">Select one item only.</partial>
+</content>

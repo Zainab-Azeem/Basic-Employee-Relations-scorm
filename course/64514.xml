@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 7 of 9" closeText="OK">
+  <instructions>
+    Read the policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f9fbf4; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>15. Job Enlargement:</b><br>
+      Job enlargement means increasing the scope of a job by extending its duties and responsibilities. 
+      It motivates employees, enhances productivity, builds capacity, and reduces boredom. 
+      Additional salary may sometimes be provided depending on the nature of the task, but it is not compulsory.
+      <br><br>
+
+      <b>16. Behavior Modeling:</b><br>
+      NIDA-Pak provides training on behavioral modeling, which focuses on developing employee behavioral and interpersonal skills. 
+      This is done by demonstrating management techniques through videos and displays, followed by role-playing exercises 
+      in simulated situations.
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock7').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock7" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 7 of 9</b><br><br>
+      Which of the following statements best reflects NIDA-Pak’s approach to <em>Job Enlargement</em> and <em>Behavior Modeling</em>?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      Job enlargement extends duties to increase motivation and productivity, while behavior modeling develops interpersonal skills through demonstrations and role-playing.
+    </option>
+    <option correct="0" display_order="1">
+      Job enlargement only increases salaries, and behavior modeling focuses solely on technical skills.
+    </option>
+    <option correct="0" display_order="2">
+      Job enlargement reduces workload, and behavior modeling is based on employee self-study.
+    </option>
+    <option correct="0" display_order="3">
+      Both job enlargement and behavior modeling require external trainers only.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! Job enlargement increases the scope of duties to boost motivation and productivity, 
+    while behavior modeling strengthens interpersonal and behavioral skills through demonstrations and role-play.
+  </correct>
+  <incorrect audio="">
+    Not quite. The correct answer is that NIDA-Pak uses job enlargement to expand duties and build capacity, 
+    and behavior modeling to develop interpersonal skills using demonstrations and simulations.
+  </incorrect>
+  <partial audio="">Select one option only.</partial>
+</content>

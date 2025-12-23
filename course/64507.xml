@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Nexus Exercise 4 of 4" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Nexus Exercise 4 of 4&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+Review the statement below and determine if it complies with HR recruitment policy.  
+Selecting a relative of a senior manager without going through the competitive recruitment process is acceptable if the candidate is qualified.</question>
+<answers>
+  <option correct="0" display_order="0">True</option>
+  <option correct="1" display_order="1">False</option>
+</answers>
+<correct audio="">That's right! The correct response is False. The HR Policy emphasizes fairness, transparency, and avoidance of conflict of interest in recruitment. Hiring relatives without a competitive process violates these principles, regardless of their qualifications.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is False. Even if the candidate is qualified, bypassing the competitive recruitment process and favoring relatives breaches HR Policy rules on fairness and compliance.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

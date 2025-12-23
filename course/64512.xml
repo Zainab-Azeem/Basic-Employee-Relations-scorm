@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 5 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#f4f9fd; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>9. Employee Orientation:</b><br>
+      NIDA-Pak provides orientation for all new employees regarding organizational policies and procedures. 
+      The concerned department head is responsible for conducting orientation, while employees are expected 
+      to study policies thoroughly. Orientation provides an overview of departmental functioning and encourages 
+      employees to ask questions. Upon completion, the employee signs an acknowledgement which is retained by HR. 
+      (Specimen attached as per Annex “F”).
+      <br><br>
+
+      <b>10. Training and Management Development:</b><br>
+      Training is a planned attempt to facilitate employee learning of job-related knowledge, skills, and behaviors. 
+      Development focuses on preparing employees for future responsibilities. Training may be internal or external, 
+      usually after the probation period, and is recommended by the Line Manager and validated by HR, subject to 
+      Training Needs Assessment (TNA). (Specimen attached as per Annex “G”).
+      <br><br>
+
+      <b>10.1 Employee Training:</b><br>
+      The NIDA-Pak training center is located at the Head Office, providing comprehensive instruction across major 
+      fields using various training and development techniques.
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock5').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock5" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 5 of 9</b><br><br>
+      Which of the following best describes NIDA-Pak’s approach to employee orientation and training?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    <option correct="1" display_order="0">
+      Orientation is conducted by the department head and acknowledged by the employee, while training is recommended after probation and validated by HR through a Training Needs Assessment.
+    </option>
+    <option correct="0" display_order="1">
+      Orientation is optional and handled by HR only, while training is provided immediately after hiring with no assessment required.
+    </option>
+    <option correct="0" display_order="2">
+      Employees are expected to train themselves, while orientation is only provided for senior management staff.
+    </option>
+    <option correct="0" display_order="3">
+      Training is mandatory before the probation period ends, and orientation acknowledgements are not kept in HR records.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! Orientation is led by the department head and formally acknowledged by employees, while training opportunities 
+    are based on probation completion, supervisor recommendation, and HR-validated Training Needs Assessment.
+  </correct>
+  <incorrect audio="">
+    Sorry, that’s not correct. The correct answer is that orientation is conducted by the department head and signed off 
+    by employees, and training is offered after probation, validated through TNA.
+  </incorrect>
+  <partial audio="">Select one item only.</partial>
+</content>

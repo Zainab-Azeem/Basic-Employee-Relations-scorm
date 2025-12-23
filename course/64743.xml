@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 6 of 8" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>What does NIDA-Pakistan base its programme management and assessment on?</question>
+  <answers>
+    <option correct="1">Professional standards and years of experience</option>
+    <option correct="0">Donor instructions only</option>
+    <option correct="0">Government audit reports</option>
+    <option correct="0">Staff personal preferences</option>
+  </answers>
+  <correct>Correct! NIDA-Pakistan relies on professional standards and long experience.</correct>
+  <incorrect>Incorrect. The right answer is professional standards and years of experience.</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

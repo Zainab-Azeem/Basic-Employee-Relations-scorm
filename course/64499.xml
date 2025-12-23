@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Case Study 1: 3 of 3" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Case Study 1: 3 of 3&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+NIDA-Pak recently advertised a position for a Project Coordinator. The job description clearly stated the minimum qualifications, required experience, and included an equal opportunity statement. During the recruitment process, two candidates—Ayesha and Imran—were shortlisted. Both achieved the same assessment score. Ayesha, however, is a female candidate applying for a role in a location where NIDA-Pak is actively promoting gender equity. Imran argued that because he has prior short-term consultancy experience with NIDA-Pak, he should be given preference over Ayesha.&lt;br&gt;&lt;br&gt;
+Question (True/False): Since both candidates scored equally, the organization must prioritize Imran’s previous association with NIDA-Pak over gender equity considerations.
+</question>
+<answers>
+  <option correct="0" display_order="0">True</option>
+  <option correct="1" display_order="1">False</option>
+</answers>
+<correct audio="">That's right! The correct response is False. According to NIDA-Pak’s recruitment policy, in cases where male and female candidates achieve equal assessment scores, preference is given to female candidates when the role is feasible. Prior association with NIDA-Pak is valued but does not guarantee appointment.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is False. According to NIDA-Pak’s recruitment policy, in cases where male and female candidates achieve equal assessment scores, preference is given to female candidates when the role is feasible. Prior association with NIDA-Pak is valued but does not guarantee appointment.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

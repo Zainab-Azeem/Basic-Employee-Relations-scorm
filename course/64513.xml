@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Recruitment Policy Assessment 6 of 9" closeText="OK">
+  <instructions>
+    Read the recruitment policy narrative carefully. When ready, click the "Check Your Knowledge" button to reveal the question and answer choices. 
+    Then select the correct response and choose "I'm done" to check your answers.
+  </instructions>
+
+  <!-- Narration -->
+  <question>
+    <![CDATA[
+    <div style="border:1px solid #999; background:#fdf9f4; padding:12px; margin-bottom:15px; border-radius:6px; font-family:Arial; font-size:14px; line-height:1.5;">
+      <b>11. On-the-Job Training:</b><br>
+      On-the-job training is provided to existing or newly appointed employees to update their knowledge of procedures, rules, and sector developments. 
+      Employees may also be nominated for external training on the recommendation of their supervisor, HR, and with the CEO’s final approval.
+      <br><br>
+
+      <b>12. Management Development:</b><br>
+      NIDA-Pak improves managerial performance by imparting knowledge, shaping attitudes, and enhancing skills. 
+      Managers are exposed to learning opportunities while performing their duties.
+      <br><br>
+
+      <b>13. Succession Planning:</b><br>
+      NIDA-Pak identifies and develops staff with potential to fill senior-level positions in the future, ensuring the availability of capable employees 
+      for leadership roles as they arise.
+      <br><br>
+
+      <b>14. Job Rotation:</b><br>
+      Job rotation broadens employee experience by allowing them to work in different roles, identifying strengths and weaknesses. 
+      Salary adjustments may be applied temporarily when employees rotate into higher or project-based roles. 
+      Employees must complete assigned tasks before the rotation takes effect.
+    </div>
+
+    <!-- Reveal button -->
+    <div style="margin-top:15px; text-align:center;">
+      <button onclick="document.getElementById('qaBlock6').style.display='block'; this.style.display='none';" 
+              style="background:#0066cc; color:#fff; padding:10px 20px; border:none; border-radius:6px; font-size:14px; cursor:pointer;">
+        Check Your Knowledge
+      </button>
+    </div>
+
+    <!-- Hidden wrapper where LMS injects the answers -->
+    <div id="qaBlock6" style="display:none; margin-top:20px;">
+      <b>Recruitment Policy Assessment 6 of 9</b><br><br>
+      Which of the following best reflects NIDA-Pak’s approach to staff development and capacity building?
+    </div>
+    ]]>
+  </question>
+
+  <!-- Let LMS handle answers outside CDATA -->
+  <answers>
+    
+    <option correct="0" display_order="1">
+      Only external training is provided, and job rotation is not part of the organization’s capacity-building approach.
+    </option>
+    <option correct="0" display_order="2">
+      Succession planning is optional, and management development is only conducted when vacancies are available.
+    </option>
+    <option correct="0" display_order="3">
+      Employees must rely solely on self-study and personal initiative for training and development at NIDA-Pak.
+    </option>
+    <option correct="1" display_order="0">
+      NIDA-Pak uses on-the-job training, management development, succession planning, and job rotation to enhance skills, prepare future leaders, and broaden employee experience.
+    </option>
+  </answers>
+
+  <!-- Feedback -->
+  <correct audio="">
+    Correct! NIDA-Pak combines on-the-job training, management development, succession planning, and job rotation to build skills, 
+    strengthen management, and prepare capable staff for future leadership roles.
+  </correct>
+  <incorrect audio="">
+    Sorry, that’s not correct. The correct answer is that NIDA-Pak emphasizes on-the-job training, management development, 
+    succession planning, and job rotation as key methods for employee development and capacity building.
+  </incorrect>
+  <partial audio="">Select one item only.</partial>
+</content>

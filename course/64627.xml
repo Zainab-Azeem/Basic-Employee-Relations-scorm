@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 7 of 10" closeText="OK">
+  <instructions>Select all of the correct responses that apply. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>Which step involves evaluating supplier offers to determine the best option?</question>
+  <answers>
+    <option correct="1">Comparative Bid Analysis (CBA)</option>
+    <option correct="0">Packing List preparation</option>
+    <option correct="0">Delivery of goods</option>
+    <option correct="0">Issuing the Gift Certificate</option>
+  </answers>
+  <correct>Correct! CBA compares all bids to select the best supplier.</correct>
+  <incorrect>Incorrect. Comparative Bid Analysis (CBA) is correct.</incorrect>
+  <partial audio="">Not quite. Each item listed is correct.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

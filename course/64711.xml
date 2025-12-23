@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 15 of 39" closeText="OK">
+    <question>If a doctor does not provide the proper medical documentation for an employee, what do you do?</question>
+  <answers>
+    <option correct="1" display_order="0" alt="">Call the employee; it’s their responsibility to make sure the doctor provides the correct documentation.</option>
+    <option correct="0" display_order="1" alt="">Call the doctor; you can get the information directly from him, bypassing the employee.</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

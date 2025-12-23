@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 38 of 39" closeText="OK">
+    <question>Which is most likely to be a formal discussion?</question>
+  <answers>
+    <option correct="1" display_order="0" alt="">Town hall meeting announcing a reorganization</option>
+    <option correct="0" display_order="1" alt="">Performance appraisal</option>
+    <option correct="0" display_order="2" alt="">Progress Review</option>
+    <option correct="0" display_order="3" alt="">Discussion of individual work assignments</option>
+  </answers>
+  <correct audio="">That's right!  Select Next to continue.</correct>
+  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
+  <partial audio="">
+  </partial>
+  <show_me audio="">
+  </show_me>
+</content>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Review Question 4 of 6" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>A group of employees who have a community of interest and are represented by a labor organization in their dealings with Agency management is called a:</question>
+  <answers>
+    <option correct="0" display_order="0">Union group.</option>
+    <option correct="0" display_order="1">Collective.</option>
+    <option correct="0" display_order="2">Bargaining batch.</option>
+    <option correct="1" display_order="3">Bargaining unit.</option>
+  </answers>
+  <correct audio="">That's right!  The correct response is "Bargaining unit."</correct>
+  <incorrect audio="">Sorry, that's incorrect. The correct response is "Bargaining unit."</incorrect>
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>

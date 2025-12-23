@@ -1,0 +1,59 @@
+The following files were modified by Dan Herr after receiving UDUTU SCORM package from Ron Vadala:
+
+Launch.html
+imsmanifest.xml
+imsmanifest_1_2.xml
+imsmanifest_2004.xml
+course\initializeTop.js
+course\screen76439.html
+course\screen76443.html
+course\64697.xml
+course\64698.xml
+course\64699.xml
+course\64700.xml
+course\64701.xml
+course\64702.xml
+course\64703.xml
+course\64704.xml
+course\64705.xml
+course\64706.xml
+course\64707.xml
+course\64708.xml
+course\64709.xml
+course\64710.xml
+course\64711.xml
+course\64712.xml
+course\64713.xml
+course\64714.xml
+course\64715.xml
+course\64716.xml
+course\64717.xml
+course\64718.xml
+course\64719.xml
+course\64720.xml
+course\64721.xml
+course\64722.xml
+course\64723.xml
+course\64724.xml
+course\64725.xml
+course\64726.xml
+course\64727.xml
+course\64728.xml
+course\64729.xml
+course\64730.xml
+course\64731.xml
+course\64732.xml
+course\64733.xml
+course\64734.xml
+course\64735.xml
+
+course-1.html - RENAMED AS Course2564.html AND EDITED
+
+
+Since previous version, the following screen numbers have changed. Need to adjust bookmark and suspend data accordingly.
+
+-OLD-	-NEW-
+64450	76439
+64467	76438
+64541	76441
+64736	76443

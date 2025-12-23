@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<content marked="false" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Case Study 2: 1 of 3" closeText="OK">
+  <instructions>Select the correct response. Then select the I'm done button to check your answers.
+When you have completed the exercise, select Next to continue.</instructions>
+  <question>&lt;B&gt;Case Study 2: 1 of 3&lt;/B&gt;&lt;br&gt;&lt;br&gt;
+NIDA-Pak recently hired Ali as an Assistant Manager in the Education Program. His role involves supervising program officers, coordinating with regional teams, and providing technical input for project design and implementation. During orientation, there was some confusion about whether Ali should be classified as part of Senior Management, Middle Management, or Support Staff.&lt;br&gt;&lt;br&gt;
+Question: Based on NIDA-Pak’s classification of posts, under which category should Ali be classified?
+</question>
+<answers>
+  <option correct="0" display_order="0">Upper/Senior Management</option>
+  <option correct="1" display_order="1">Middle Management</option>
+  <option correct="0" display_order="2">Support Staff</option>
+</answers>
+<correct audio="">That's right! The correct response is Middle Management. According to NIDA-Pak’s HR Policy, Middle Management includes roles such as Department/Unit Heads, Assistant Managers, Senior Officers, and Officers, who provide professional backup to the Management Team.</correct>
+<incorrect audio="">Sorry, that's incorrect. The correct response is Middle Management. According to NIDA-Pak’s HR Policy, Middle Management includes roles such as Department/Unit Heads, Assistant Managers, Senior Officers, and Officers, who provide professional backup to the Management Team.</incorrect>
+
+  <partial audio="">Select one item only.</partial>
+  <show_me audio="">
+  </show_me>
+</content>
