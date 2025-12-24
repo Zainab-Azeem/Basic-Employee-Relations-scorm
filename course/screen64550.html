@@ -1,78 +1,116 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Untitled Page</title>
+
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=false;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+</head>
+
+<body class="contentBody" onload="Initialize();">
+
 <div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top fullWidth fullHeight">
-		<div id="UDUTU_Text1_Headline" class="textHeadline">Cash for Work
+
+<div id="UDUTU_Text1" class="text left top fullWidth fullHeight">
+
+  <div id="UDUTU_Text1_Headline" class="textHeadline">
+    Cash for Work
+  </div>
+
+  <div id="UDUTU_Text1_Content" class="textContent">
+
+    <!-- IMAGE INSIDE TEXT (FIXED) -->
+    <img
+      src="../media/content/Screenshot 2025-12-24 113333.png"
+      alt="Three people working"
+      style="float:right; width:280px; height:auto; margin:10px 0 15px 20px; border-radius:6px;"
+    >
+
+    <h2>Financial Management Records and Reporting</h2>
+
+    <p>
+      The following key financial topics are outlined with expandable sections to provide detailed insights
+      into financial record-keeping, reporting, and reconciliation mechanisms. Click on the <strong>+</strong>
+      and <strong>-</strong> icons to expand or hide each section.
+    </p>
+
+    <style>
+      details summary {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    </style>
+
+    <details>
+      <summary>+ Financial Books</summary>
+      <ul>
+        <li><strong>Bank Book (Monthly):</strong> Tracks all bank transactions.</li>
+        <li><strong>Cash Book (Bi-Monthly):</strong> Records all cash receipts.</li>
+        <li><strong>Cash Count:</strong> Regular verification of physical cash.</li>
+        <li><strong>Bank Reconciliation (Monthly):</strong> Matches bank statements.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>+ Book Keeping</summary>
+      <ul>
+        <li>Posting of daily expenses in QuickBooks</li>
+        <li>Daily financial closure</li>
+        <li>Monthly financial closure</li>
+        <li>Extraction of monthly reports</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>+ Fund Request and Transfer</summary>
+      <ul>
+        <li>Financial report / fund flow preparation</li>
+        <li>Narrative report</li>
+        <li>Bank reconciliation</li>
+        <li>Verification of original documents</li>
+        <li>Bank account details</li>
+        <li>Fund transfer as per contract</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>+ Financial Report</summary>
+      <ul>
+        <li>Financial report (donor template)</li>
+        <li>General ledger</li>
+        <li>Trial balance</li>
+        <li>Income and expenditure statement</li>
+        <li>Bank account details</li>
+      </ul>
+    </details>
+
+    <!-- STOP FLOAT -->
+    <div style="clear:both;"></div>
+
+    <p>&nbsp;</p>
+    <p><strong><font color="#b01c05">Select Next to continue.</font></strong></p>
+
+  </div>
+
+  <div id="UDUTU_Text1_EditContent" class="editPanel">
+    <p>text editing options</p>
+    <div id="UDUTU_Text1_btnAdd"></div>
+    <div id="UDUTU_Text1_btnEdit"></div>
+    <div id="UDUTU_Text1_btnSelect"></div>
+  </div>
+
 </div>
-		<div id="UDUTU_Text1_Content" class="textContent">
-			<h2>Financial Management Records and Reporting</h2>
 
-<p>
-  The following key financial topics are outlined with expandable sections to provide detailed insights into financial record-keeping, reporting, and reconciliation mechanisms. Click on the <strong>+</strong> and <strong>-</strong> icons to expand or hide each section.
-</p>
+<span id="UDUTU_Narration" style="visibility:hidden;">../Media/Content/sample.mp3</span>
 
-<style>
-  details summary {
-    cursor: pointer;
-    font-weight: bold;
-  }
-</style>
-
-<!-- Financial Books -->
-<details>
-  <summary>+ Financial Books</summary>
-  <ul>
-    <li><strong>Bank Book (Monthly):</strong> Tracks all bank transactions, deposits, withdrawals, and balances on a monthly basis to maintain accurate financial records and ensure transparency.</li>
-    <li><strong>Cash Book (Bi-Monthly):</strong> Records all cash receipts and payments, updated bi-monthly, ensuring proper tracking of petty cash and operational expenses.</li>
-    <li><strong>Cash Count:</strong> Surprise or scheduled cash count conducted weekly or monthly by supervisors to ensure alignment between physical cash and financial records.</li>
-    <li><strong>Bank Reconciliation (Monthly):</strong> A systematic comparison of bank statements with the bank book to identify discrepancies, pending transactions, or financial anomalies.</li>
-  </ul>
-</details>
-
-<!-- Book Keeping -->
-<details>
-  <summary>+ Book Keeping</summary>
-  <ul>
-    <li><strong>Posting of Daily Expense in QuickBooks:</strong> All expenses are recorded daily in the QuickBooks accounting system to ensure real-time financial tracking.</li>
-    <li><strong>Daily Financial Closure:</strong> End-of-day reconciliation of all cash, bank, and ledger transactions to maintain accurate financial status.</li>
-    <li><strong>Monthly Financial Closure:</strong> Compilation and verification of all financial records for the month, including ledgers, vouchers, and reports, to close financial books.</li>
-    <li><strong>Extraction of Monthly Reports (Hard Copy):</strong> Monthly financial summaries and ledgers are printed in hard copy format for filing and audit purposes.</li>
-  </ul>
-</details>
-
-<!-- Fund Request and Transfer -->
-<details>
-  <summary>+ Fund Request and Transfer</summary>
-  <ul>
-    <li><strong>Financial Report / Fund Flow Preparation:</strong> Detailed financial report prepared to request funds, presenting budget utilization and projected financial needs.</li>
-    <li><strong>Narrative Report:</strong> Explanatory report outlining financial utilization, progress, challenges, and compliance with donor requirements.</li>
-    <li><strong>Bank Reconciliation:</strong> Reconciliation report attached with fund transfer request to confirm accurate balances.</li>
-    <li><strong>Verification of Original Documents:</strong> Supporting documents verified before processing fund requests or transfers, ensuring authenticity and compliance.</li>
-    <li><strong>Bank Account Details:</strong> Account information shared to facilitate fund transfer, including IBAN, account name, and bank branch.</li>
-    <li><strong>Fund Transfer as per Contract:</strong> Funds transferred according to contract terms, ensuring compliance with donor agreements and disbursement schedules.</li>
-  </ul>
-</details>
-
-<!-- Financial Report -->
-<details>
-  <summary>+ Financial Report</summary>
-  <ul>
-    <li><strong>Financial Report (Donor Template):</strong> Reports prepared using donor-approved formats, highlighting budget use, expenditures, commitments, and variances.</li>
-    <li><strong>General Ledger:</strong> Comprehensive record of all financial transactions, categorized and posted according to accounting codes.</li>
-    <li><strong>Trial Balance:</strong> Summary of all ledger balances to verify accuracy and ensure that debits equal credits.</li>
-    <li><strong>Income and Expenditure Statement:</strong> Statement showing revenues, grants, and expenditures to determine financial performance over a specific period.</li>
-    <li><strong>Bank Account Details:</strong> Bank account information included to validate balances, reconciliations, and fund status.</li>
-  </ul>
-</details>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+</body>
+</html>
