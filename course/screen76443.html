@@ -14,20 +14,27 @@
 			<span id="spnPassedText">Great job! You passed the course. Select the Exit button to exit the course and print your certificate of completion.</span>
 			<span id="spnFailedText">Sorry, you did not achieve the minimum score of 70%. To retake the assessment, select the Course Menu button and then select the Exit button to exit the course. At any time, restart the course to try again.</span>
 			<script>
-			try {
-				var score1 = Math.round(UDUTU_API.generateScore());
-				if (score1 >= (UDUTU_API.gblPassingScore * 100)) {
-					//PASSED
-					document.getElementById('spnFailedText').innerHTML = '';
-					//var theAPI = getUDUTU_API();
-					//theAPI.setCompleted();
-					UDUTU_API.setCompleted();
-				} else {
-					document.getElementById('spnPassedText').innerHTML = '';
-				}
-			}catch(ex){}
+try {
+    var score1 = Math.round(UDUTU_API.generateScore());
+    var passingScore = UDUTU_API.gblPassingScore * 100;
 
-			</script>
+    if (score1 >= passingScore) {
+
+        document.getElementById('spnFailedText').innerHTML = '';
+        UDUTU_API.setCompleted();
+
+        // Open certificate in new tab (browser-safe)
+        setTimeout(function () {
+            window.open('../certificate.html', '_blank');
+        }, 800);
+
+    } else {
+        document.getElementById('spnPassedText').innerHTML = '';
+    }
+
+} catch (ex) {}
+</script>
+
 		</div>
 <!-- END OF EDIT -->
 

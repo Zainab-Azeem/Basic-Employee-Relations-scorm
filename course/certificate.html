@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Certificate of Completion</title>
+
+<style>
+    body {
+        font-family: "Georgia", "Times New Roman", serif;
+        background: #f4f6f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    .certificate-container {
+        width: 900px;
+        height: 620px;
+        margin: 40px auto;
+        background: #ffffff;
+        border: 12px solid #1f4e79;
+        padding: 40px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        max-height: 90px;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: #1f4e79;
+        margin: 20px 0;
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        text-align: center;
+        font-size: 18px;
+        color: #444;
+        margin-bottom: 30px;
+    }
+
+    .content {
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #000;
+        padding: 0 40px;
+    }
+
+    .highlight {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 15px 0;
+    }
+
+    .details {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .details span {
+        font-weight: bold;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
+        right: 40px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+
+    .signature {
+        text-align: center;
+    }
+
+    .signature-line {
+        border-top: 1px solid #000;
+        width: 200px;
+        margin: 5px auto;
+    }
+
+    .print-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .print-btn button {
+        padding: 10px 25px;
+        font-size: 16px;
+        background: #1f4e79;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    @media print {
+        body {
+            background: none;
+        }
+        .print-btn {
+            display: none;
+        }
+    }
+</style>
+
+<script src="jquery.js"></script>
+<script src="utility.js"></script>
+
+<script>
+    function populateCertificate() {
+        try {
+            var score = Math.round(UDUTU_API.generateScore());
+            var passingScore = UDUTU_API.gblPassingScore * 100;
+
+            document.getElementById("score").innerHTML = score + "%";
+            document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+
+            if (score < passingScore) {
+                document.getElementById("status").innerHTML =
+                    "This certificate is not valid as the minimum passing score was not achieved.";
+            }
+        } catch (e) {
+            console.log("Certificate population error", e);
+        }
+    }
+</script>
+</head>
+
+<body onload="populateCertificate();">
+
+<div class="certificate-container">
+
+    <div class="logo">
+        <!-- Replace with your organization logo -->
+        <img src="media/content/org_logo.png" alt="Organization Logo">
+    </div>
+
+    <div class="title">Certificate of Completion</div>
+
+    <div class="subtitle">
+        This is to certify that
+    </div>
+
+    <div class="content">
+        <div class="highlight">The Learner</div>
+
+        has successfully completed the training module
+
+        <div class="highlight">
+            “Final Assessment & Course Requirements”
+        </div>
+
+        with an overall score of
+
+        <div class="highlight" id="score">--%</div>
+
+        <div class="details">
+            <p>Training Status: <span>Completed</span></p>
+            <p>Date of Completion: <span id="date"></span></p>
+            <p id="status"></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="signature">
+            <div class="signature-line"></div>
+            Authorized Signatory
+        </div>
+
+        <div class="signature">
+            <div class="signature-line"></div>
+            Training Coordinator
+        </div>
+    </div>
+
+</div>
+
+<div class="print-btn">
+    <button onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+</body>
+</html>
