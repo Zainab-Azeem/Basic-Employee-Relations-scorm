@@ -1,71 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=true;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head>  <script type="text/javascript" src="jquery.js"></script>
-  <script type="text/javascript" src="screenUtils.js"></script>
-  <script type="text/javascript" src="interactiveUtils.js"></script>
-  <script type="text/javascript">
-    var intCorrectGoToScreenID = -1;
-    var intIncorrectGoToScreenID = -1;
-    var intPartialGoToScreenID = -1; 
-    var xmlFile ='64640.xml';
-    var themeDir = 'themes/selkirk/'; 
-  </script>       
-  <script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>  
-  <script type="text/javascript" src="assessment.js"></script>   
-  <script type="text/javascript" src="multiplechoice.js"></script>
-</head>   
-<body class="contentBody">  
-  <div id="Water_Mark"></div>
-  <div id="assessment" class="multiplechoice mc8options">
-    <div id="panel">              
-      <a class="close-btn" href="#close"></a>
-      <div id="instructions" class="instructions">                </div>
-      <div id="correct" class="feedback">              </div>
-      <div id="incorrect" class="feedback">              </div>
-      <div id="partial" class="feedback">              </div>
-      <div id="show_me" class="feedback">              </div>
-      <div class="button"><a href="#close">OK</a></div>          </div>
-      <div id="questionOptions">              
-        <div id="divQuestionText" class="question"></div>
-        <div id="option1" class="option">               
-          <a href="#select"></a>
-        </div> 
-        <div id="option2" class="option"> 
-          <a href="#select"></a>
-        </div> 
-        <div id="option3" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option4" class="option">
-          <a href="#select"></a>
-        </div> 
-        <div id="option5" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option6" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option7" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option8" class="option">
-          <a href="#select"></a>
-        </div>
-      </div>
-      <div id="buttonrow">
-        <div id="instructBtn" class="button">
-          <a href='#showinstructions'>instructions</a>
-        </div>
-        <div id="showBtn" class="button disabled">
-          <a href='#showanswers'>show me</a>
-        </div>
-        <div id="checkBtn" class="button">
-          <a href='#checkanswers'>i'm done</a>
-        </div>
-      </div>
-    </div>
-    <div id="audio"></div>
-    <script type="text/javascript">
-      initAssessment('64640.xml','themes/selkirk/');      
-    </script>
-    <span id="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-    <script type="text/javascript">        InitSound();      </script>
-  </body></html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Security Policy Assessment - Q1</title>
+
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ1() {
+  var correct = document.getElementById("q1a1").checked;
+  document.getElementById("correctFeedbackQ1").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ1").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Security Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 1:</b></p>
+    <p>Which principle should NIDA-Pakistan staff follow regarding life and organizational property?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q1" id="q1a1"><label for="q1a1">Staff must never put their own lives at risk to protect property.</label></div>
+      <div class="mcq-option"><input type="radio" name="q1" id="q1a2"><label for="q1a2">Staff must prioritize property over personal safety.</label></div>
+      <div class="mcq-option"><input type="radio" name="q1" id="q1a3"><label for="q1a3">Staff should ignore safety policies if assets are at risk.</label></div>
+      <div class="mcq-option"><input type="radio" name="q1" id="q1a4"><label for="q1a4">Staff may take risks without informing management.</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ1();">
+    </form>
+    <div id="correctFeedbackQ1" class="feedback correct">Correct! Staff should never risk their life to protect property.</div>
+    <div id="incorrectFeedbackQ1" class="feedback incorrect">Incorrect. The correct answer is: Staff must never put their own lives at risk to protect property.</div>
+  </div>
+</div>
+
+</body>
+</html>

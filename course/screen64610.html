@@ -1,36 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Step 3: Taking Action</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p>This section is designed to give you an overview of the process used in taking action for unacceptable performance. It will describe the role and responsibilities of the proposing official and deciding official. There is also a brief explanation of employee appeal rights.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q17</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="A man and woman meeting"  width='448' height='336' src='../media/content/OPM_ER_PM_07b_conducting_81393.png' srcWidth='448' srcHeight='336' ALT='A man and woman meeting' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ17() {
+  var correct = document.getElementById("q17a1").checked;
+  document.getElementById("correctFeedbackQ17").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ17").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text17" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 17:</b></p>
+    <p>When equipment is assigned to staff, what document must be completed?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q17" id="q17a1"><label for="q17a1">Asset Handover / Custody Form</label></div>
+      <div class="mcq-option"><input type="radio" name="q17" id="q17a2"><label for="q17a2">Purchase Requisition</label></div>
+      <div class="mcq-option"><input type="radio" name="q17" id="q17a3"><label for="q17a3">Bid Evaluation Sheet</label></div>
+      <div class="mcq-option"><input type="radio" name="q17" id="q17a4"><label for="q17a4">Payment Voucher</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ17();">
+    </form>
+    <div id="correctFeedbackQ17" class="feedback correct">Correct! An Asset Handover / Custody Form must be completed.</div>
+    <div id="incorrectFeedbackQ17" class="feedback incorrect">Incorrect. The correct answer is Asset Handover / Custody Form.</div>
+  </div>
+</div>
+
+</body>
+</html>

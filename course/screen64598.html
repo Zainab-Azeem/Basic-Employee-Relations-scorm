@@ -1,35 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Step 1: Communicate Expectations and Performance Problems</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p><b>Providing Positive and Constructive Feedback</b></p><p>Being in a working environment, we need to apply and respond to feedback. We receive feedback all the time from the tone of people’s voices, their body language, and the way people interact with us. This kind of feedback is needed all the time to maintain open communications with our employees in order to get the job done more effectively. Performance feedback can be given through constructive and positive feedback.</p><p>Constructive feedback is communication that brings to an individual’s attention an area in which their performance could improve, in a manner that helps the individual understand and internalize the information. Constructive feedback does not focus on fault or blame; it is specific and is directed towards the action, not the person.</p>
-<table cellpadding="3" border="1" class="" style=""><tbody><tr><td class="" style="font-weight: bold; background-color: rgb(84, 141, 212);"><font color="#FFFFFF">Constructive Feedback is:</font></td><td class=" " =""="" style="font-weight: bold; background-color: rgb(84, 141, 212);"><font color="#FFFFFF">Constructive Feedback is not:</font></td></tr><tr><td>Useful<br>Meaningful<br>Impactful</td><td>Critical<br>Accusatory<br>Vague</td></tr></tbody></table><p>&nbsp;</p>
-<p><strong><font color=" #b01c05" =""="">Select Next to continue.</font></strong></p><p><strong><br></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q5</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="Two stick figures"  width='448' height='336' src='../media/content/OPM_ER_PM_04_provideFeedback_81367.png' srcWidth='448' srcHeight='336' ALT='Two stick figures' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ5() {
+  var correct = document.getElementById("q5a1").checked;
+  document.getElementById("correctFeedbackQ5").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ5").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text5" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 5:</b></p>
+    <p>Which criteria are used during Comparative Bid Analysis?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q5" id="q5a1"><label for="q5a1">Price, quality, delivery, and supplier reliability</label></div>
+      <div class="mcq-option"><input type="radio" name="q5" id="q5a2"><label for="q5a2">Personal preference of staff</label></div>
+      <div class="mcq-option"><input type="radio" name="q5" id="q5a3"><label for="q5a3">Supplier location only</label></div>
+      <div class="mcq-option"><input type="radio" name="q5" id="q5a4"><label for="q5a4">Speed of invoice submission</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ5();">
+    </form>
+    <div id="correctFeedbackQ5" class="feedback correct">Correct! Bid analysis uses price, quality, delivery, and supplier reliability.</div>
+    <div id="incorrectFeedbackQ5" class="feedback incorrect">Incorrect. The correct answer is price, quality, delivery, and supplier reliability.</div>
+  </div>
+</div>
+
+</body>
+</html>

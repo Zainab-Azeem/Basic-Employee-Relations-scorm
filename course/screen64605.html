@@ -1,14 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody moreInfo" onLoad="Initialize();">
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Does the employee have a disability?</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><div><b>Yes, if...</b></div><div><ul><li>Medical documentation supports a physical or mental condition that substantially limits a major life activity (such as walking, talking, seeing, hearing, or learning).</li><li>He or she has a history of a disability (such as cancer that is in remission).</li><li>He or she is believed to have a physical or mental impairment that is not transitory (lasting or expected to last six months or less) and minor (even if he or she does not have such an impairment).</li></ul></div></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q12</title>
 
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ12() {
+  var correct = document.getElementById("q12a1").checked;
+  document.getElementById("correctFeedbackQ12").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ12").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text12" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 12:</b></p>
+    <p>What is the primary objective of logistics planning in project implementation?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q12" id="q12a1"><label for="q12a1">Ensuring timely, cost-effective delivery of goods and services</label></div>
+      <div class="mcq-option"><input type="radio" name="q12" id="q12a2"><label for="q12a2">Reducing staff workload</label></div>
+      <div class="mcq-option"><input type="radio" name="q12" id="q12a3"><label for="q12a3">Increasing supplier profits</label></div>
+      <div class="mcq-option"><input type="radio" name="q12" id="q12a4"><label for="q12a4">Avoiding documentation requirements</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ12();">
+    </form>
+    <div id="correctFeedbackQ12" class="feedback correct">Correct! Logistics planning ensures timely, cost-effective delivery of goods and services.</div>
+    <div id="incorrectFeedbackQ12" class="feedback incorrect">Incorrect. The correct answer is ensuring timely, cost-effective delivery of goods and services.</div>
+  </div>
+</div>
+
+</body>
+</html>

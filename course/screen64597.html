@@ -1,17 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top fullWidth fullHeight">
-		<div id="UDUTU_Text1_Headline" class="textHeadline">Step 1: Communicate Expectations and Performance Problems</div>
-		<div id="UDUTU_Text1_Content" class="textContent"><img src="../media/content/OPM_ER_PM_03c_superCounsel_Narrower_81364.png" height="450" width="263" align="right"><p><b>How Can a Supervisor Effectively Counsel an Employee? (continued)</b></p><p>Positive feedback is news or input to an employee about an effort well done. Do not underestimate the power of positive feedback. Sometimes people are quick to point out to someone when a person makes a mistake. Sometimes employers forget to acknowledge employees when they do something right. Giving positive feedback can be a powerful tool for employee motivation.</p><p>Tips to Give to Supervisors for Positive Feedback:</p><ol><li>Do not wait: &nbsp;Positive feedback is too important to let slide. Say something right away.</li><li>Make it public: &nbsp;While negative feedback should be given privately, positive feedback should be given publicly. Do it in front of as large a group as appropriate.</li><li>Be specific: &nbsp;Don't just say "Good job, Mary." &nbsp;Instead say something like "Mary, that new standard of operating procedures handbook you developed has really helped everyone on the team. Thanks for coming up with it and keep up the good work."</li><li>Make a big deal out of it: &nbsp;You don't want to assemble the entire agency every time you give positive feedback, but do as much ceremony as the action warrants.</li><li>Do it often: &nbsp;Don't wait for the big successes. Celebrate the small ones too.</li><li>Be sincere: &nbsp;Don't praise someone for coming in on time. Don't congratulate someone for just doing their job. People will see right through you. Really mean it when you give positive feedback.</li></ol>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q4</title>
+
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ4() {
+  var correct = document.getElementById("q4a1").checked;
+  document.getElementById("correctFeedbackQ4").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ4").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text4" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 4:</b></p>
+    <p>What is the primary purpose of issuing a Request for Quotation (RFQ)?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q4" id="q4a1"><label for="q4a1">To obtain competitive prices and delivery terms</label></div>
+      <div class="mcq-option"><input type="radio" name="q4" id="q4a2"><label for="q4a2">To approve payment</label></div>
+      <div class="mcq-option"><input type="radio" name="q4" id="q4a3"><label for="q4a3">To receive goods</label></div>
+      <div class="mcq-option"><input type="radio" name="q4" id="q4a4"><label for="q4a4">To close procurement files</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ4();">
+    </form>
+    <div id="correctFeedbackQ4" class="feedback correct">Correct! RFQs are issued to obtain competitive prices and delivery terms.</div>
+    <div id="incorrectFeedbackQ4" class="feedback incorrect">Incorrect. The correct answer is to obtain competitive prices and delivery terms.</div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,34 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">ER specialist’s Role in Contract Administration</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p><p>Again, while the ER specialist may or may not have a direct role in contract administration, you should be prepared to assist agency supervisors and management with questions that may arise. As such, having a firm understanding of the requirements under the Statute and under the CBA will be important to the ER or ELR Specialist’s success. Also, feel free to consult with your Labor Relations Specialist when in doubt about the meaning of a provision contained in the CBA.</p><p>The key point here is that you are helping to set the labor relations atmosphere for the agency. Solid labor-management relationships will contribute to the accomplishment of the agency’s mission and goals.</p><p><br /></p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Sexual Harassment Policy Assessment - Q22</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="Two men working"  width='448' height='336' src='../media/content/OPM_ER_30_ERrole_81530.png' srcWidth='448' srcHeight='336' ALT='Two men working' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ22() {
+  var correct = document.getElementById("q22a1").checked;
+  document.getElementById("correctFeedbackQ22").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ22").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_TextQ22" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Sexual Harassment Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 22:</b></p>
+    <p>To whom should an employee report sexual harassment incidents?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q22" id="q22a1"><label for="q22a1">HR or Gender Policy Unit</label></div>
+      <div class="mcq-option"><input type="radio" name="q22" id="q22a2"><label for="q22a2">Any colleague in the office</label></div>
+      <div class="mcq-option"><input type="radio" name="q22" id="q22a3"><label for="q22a3">Only the CEO</label></div>
+      <div class="mcq-option"><input type="radio" name="q22" id="q22a4"><label for="q22a4">Social media channels</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ22();">
+    </form>
+    <div id="correctFeedbackQ22" class="feedback correct">Correct! Incidents should be reported to HR or Gender Policy Unit.</div>
+    <div id="incorrectFeedbackQ22" class="feedback incorrect">Incorrect. The correct answer is: HR or Gender Policy Unit.</div>
+  </div>
+</div>
+
+</body>
+</html>

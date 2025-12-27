@@ -1,36 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Step 2: Provide an Opportunity to Improve</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p><b>Providing an Opportunity to Improve</b></p><p>Before you help the supervisor start the formal process of taking a performance-based action, be aware that the supervisor has options. The law provides for two different processes for taking performance-based actions. If a performance-based action is taken under title 5 CFR part 432, a formal opportunity to improve is required. If a performance-based action is taken under title 5 CFR part 752, an opportunity period is not required. Step Two will walk you through the part 432 process of giving an employee a formal opportunity to improve his or her performance. Step Three will provide more details on deciding under which process to take your action. Regardless of the process you use, an opportunity period is a useful tool for assisting employees in improving their performance.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q8</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="A gavel on a stack of books"  width='448' height='336' src='../media/content/OPM_ER_PM_08_provideOpp_81374.png' srcWidth='448' srcHeight='336' ALT='A gavel on a stack of books' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ8() {
+  var correct = document.getElementById("q8a1").checked;
+  document.getElementById("correctFeedbackQ8").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ8").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text8" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 8:</b></p>
+    <p>What document confirms that goods were received and inspected?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q8" id="q8a1"><label for="q8a1">Goods Received Note (GRN)</label></div>
+      <div class="mcq-option"><input type="radio" name="q8" id="q8a2"><label for="q8a2">Purchase Requisition</label></div>
+      <div class="mcq-option"><input type="radio" name="q8" id="q8a3"><label for="q8a3">Cheque copy</label></div>
+      <div class="mcq-option"><input type="radio" name="q8" id="q8a4"><label for="q8a4">Bid analysis</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ8();">
+    </form>
+    <div id="correctFeedbackQ8" class="feedback correct">Correct! The GRN confirms that goods were received and inspected.</div>
+    <div id="incorrectFeedbackQ8" class="feedback incorrect">Incorrect. The correct answer is Goods Received Note (GRN).</div>
+  </div>
+</div>
+
+</body>
+</html>

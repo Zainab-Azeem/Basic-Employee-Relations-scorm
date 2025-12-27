@@ -1,33 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Grievances</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p>A grievance is defined in 5 U.S.C. 7103(a)(9) as any complaint filed by a union or employee about:</p><ul><li>Matters relating to the employment of the employee.</li><li>Interpretation or claim of breach of a CBA.</li><li>Violation, misinterpretation, or misapplication of any law, rule, or regulation affecting employment.</li></ul><p>Every CBA must have a grievance procedure ending in binding arbitration.</p><p>Arbitration is a method of resolving employment disputes through recourse to an impartial third party whose decision is usually final and binding.</p><p>Grievance procedures can vary depending on your CBA. Always consult with your agency’s Labor Relations Specialists.</p><p><br /></p><p><br /></p><p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Sexual Harassment Policy Assessment - Q23</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="Bowling pins with the word violation on them and a bowling ball with the word compliance"  width='448' height='336' src='../media/content/OPM_ER_31a_grievances_81532.png' srcWidth='448' srcHeight='336' ALT='Bowling pins with the word violation on them and a bowling ball with the word compliance' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ23() {
+  var correct = document.getElementById("q23a1").checked;
+  document.getElementById("correctFeedbackQ23").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ23").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_TextQ23" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Sexual Harassment Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 23:</b></p>
+    <p>What is the key responsibility of supervisors regarding sexual harassment?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q23" id="q23a1"><label for="q23a1">Promote safe work environment and respond to complaints</label></div>
+      <div class="mcq-option"><input type="radio" name="q23" id="q23a2"><label for="q23a2">Ignore complaints unless escalated</label></div>
+      <div class="mcq-option"><input type="radio" name="q23" id="q23a3"><label for="q23a3">Delegate reporting to any colleague</label></div>
+      <div class="mcq-option"><input type="radio" name="q23" id="q23a4"><label for="q23a4">Only document complaints without action</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ23();">
+    </form>
+    <div id="correctFeedbackQ23" class="feedback correct">Correct! Supervisors must promote a safe environment and respond to complaints promptly.</div>
+    <div id="incorrectFeedbackQ23" class="feedback incorrect">Incorrect. The correct answer is: Promote safe work environment and respond to complaints.</div>
+  </div>
+</div>
+
+</body>
+</html>

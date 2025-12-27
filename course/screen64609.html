@@ -1,36 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Step 2: Provide an Opportunity to Improve</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p><b>Deciding What Comes Next</b></p><p>Deciding what comes next depends on the employee’s performance at the conclusion of the opportunity period. If the employee has reached an acceptable level of performance, there is no need for any action except for the supervisor to notify the employee of their success, and continue providing feedback and encouragement. If the employee is still performing unacceptably, you must help the supervisor determine the best solution. The supervisor’s options include reassignment, demotion, or removal. Although government wide regulations allow supervisors to choose any of these options, your agency may have some internal rules about considering reassignment before the other choices.</p><p>Note: If there is no improvement during the opportunity period, supervisors may reassign employees without conducting the formal process outlined in step three which will be covered on the next several screens.&nbsp;</p><p>Keep in mind, step three explains the procedures used after you have decided to demote or remove an employee. It also explains the employee’s appeal rights.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q16</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="A person carrying a box"  width='448' height='336' src='../media/content/OPM_ER_PM_12_deciding_81391.png' srcWidth='448' srcHeight='336' ALT='A person carrying a box' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ16() {
+  var correct = document.getElementById("q16a1").checked;
+  document.getElementById("correctFeedbackQ16").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ16").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text16" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 16:</b></p>
+    <p>Why is asset tagging important?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q16" id="q16a1"><label for="q16a1">To enable tracking, verification, and accountability</label></div>
+      <div class="mcq-option"><input type="radio" name="q16" id="q16a2"><label for="q16a2">To improve asset resale value</label></div>
+      <div class="mcq-option"><input type="radio" name="q16" id="q16a3"><label for="q16a3">To reduce depreciation</label></div>
+      <div class="mcq-option"><input type="radio" name="q16" id="q16a4"><label for="q16a4">To replace insurance</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ16();">
+    </form>
+    <div id="correctFeedbackQ16" class="feedback correct">Correct! Asset tagging enables tracking, verification, and accountability.</div>
+    <div id="incorrectFeedbackQ16" class="feedback incorrect">Incorrect. The correct answer is to enable tracking, verification, and accountability.</div>
+  </div>
+</div>
+
+</body>
+</html>

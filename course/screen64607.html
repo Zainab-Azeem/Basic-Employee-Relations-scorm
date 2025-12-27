@@ -1,14 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody moreInfo" onLoad="Initialize();">
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Does the accommodation request cause an undue hardship? </div>
-		<div class="textContent" id="UDUTU_Text1_Content"><div><b>Consider the following factors:</b></div><div><ul><li>The number of employees in the organization.</li><li>The type of facilities.&nbsp;</li><li>The size of the organization’s budget.&nbsp;</li><li>The cost of the requested accommodation(s).<span class="Apple-tab-span" style="white-space: pre;">	</span></li></ul></div><div>An accommodation should be designed to address an employee’s physical or mental limitations so that the employee has as much of a chance to achieve acceptable performance as a non-disabled person. While each case may be different, a supervisor’s responsibility is to resolve the performance problem, not the mental or physical disability. Keep in mind that a request for accommodation does not preclude the supervisor from proceeding with a performance-based action. In many situations, accommodations can be put be in place at the same time an opportunity period is started.</div></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q14</title>
 
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ14() {
+  var correct = document.getElementById("q14a1").checked;
+  document.getElementById("correctFeedbackQ14").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ14").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text14" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 14:</b></p>
+    <p>What is the purpose of maintaining minimum and maximum stock levels?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q14" id="q14a1"><label for="q14a1">To avoid stock-outs and overstocking</label></div>
+      <div class="mcq-option"><input type="radio" name="q14" id="q14a2"><label for="q14a2">To increase procurement frequency</label></div>
+      <div class="mcq-option"><input type="radio" name="q14" id="q14a3"><label for="q14a3">To delay program activities</label></div>
+      <div class="mcq-option"><input type="radio" name="q14" id="q14a4"><label for="q14a4">To reduce reporting requirements</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ14();">
+    </form>
+    <div id="correctFeedbackQ14" class="feedback correct">Correct! Minimum and maximum stock levels prevent stock-outs and overstocking.</div>
+    <div id="incorrectFeedbackQ14" class="feedback incorrect">Incorrect. The correct answer is to avoid stock-outs and overstocking.</div>
+  </div>
+</div>
+
+</body>
+</html>

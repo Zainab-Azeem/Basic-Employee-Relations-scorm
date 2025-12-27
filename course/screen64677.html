@@ -1,34 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Supervisor’s Role in Contract Administration</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p>The many daily decisions supervisors make involve the interpretation and application of the provisions of the CBA. &nbsp;When applying the terms and conditions of the CBA, supervisors are really taking the steps to create a successful and productive labor-management relationship. &nbsp;Again, it is critically important that supervisors know that they can consult with their ELR specialist to get the proper support when dealing with contract administration issues. &nbsp;ELR specialists should stay in constant contact with supervisors to ensure consistent application of the CBA.&nbsp;</p><p><br /></p><p><br /></p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Sexual Harassment Policy Assessment - Q21</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="A man and a woman working"  width='448' height='336' src='../media/content/OPM_ER_29_superRole_81528.png' srcWidth='448' srcHeight='336' ALT='A man and a woman working' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ21() {
+  var correct = document.getElementById("q21a1").checked;
+  document.getElementById("correctFeedbackQ21").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ21").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_TextQ21" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Sexual Harassment Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 21:</b></p>
+    <p>Which of the following is considered sexual harassment under NIDA-Pakistan policy?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q21" id="q21a1"><label for="q21a1">Persistent unwelcome sexual advances</label></div>
+      <div class="mcq-option"><input type="radio" name="q21" id="q21a2"><label for="q21a2">Complimenting a colleague’s work professionally</label></div>
+      <div class="mcq-option"><input type="radio" name="q21" id="q21a3"><label for="q21a3">Asking about project deadlines</label></div>
+      <div class="mcq-option"><input type="radio" name="q21" id="q21a4"><label for="q21a4">Reporting unsafe conditions to supervisor</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ21();">
+    </form>
+    <div id="correctFeedbackQ21" class="feedback correct">Correct! Persistent unwelcome sexual advances are considered sexual harassment.</div>
+    <div id="incorrectFeedbackQ21" class="feedback incorrect">Incorrect. The correct answer is: Persistent unwelcome sexual advances.</div>
+  </div>
+</div>
+
+</body>
+</html>

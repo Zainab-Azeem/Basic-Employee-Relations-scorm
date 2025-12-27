@@ -1,36 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Step 3: Taking Action</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p><b>A Supervisor’s Authority (continued)</b></p><p>In reviewing the comparison document for Parts 432 and 752, you can see there are distinct differences between these regulations. For example, Part 432 requires that the supervisor give the employee an opportunity to bring his or her performance up to an acceptable level, while Part 752 does not require such an opportunity period. With this difference in mind, you may question the reasoning behind providing some sort of opportunity period if it is not required. Keep in mind that third parties (for example, arbitrators, judges) place a strong emphasis on a supervisor’s effort to assist the employee in improving his or her performance. An opportunity period addresses both of these concerns. While an opportunity period may not be required under Part 752, providing such an opportunity may assist the agency in developing a stronger case before a third party, depending on the type of situation being addressed.</p><p>Another difference between the regulations is that Part 432 requires the use of established performance elements and standards. Under Part 752 employee can be held to ad hoc standards such as explicit instructions or work assignments or professional standards established for certain occupations such as physicians. In some cases, it may be more appropriate to hold employee to these ad hoc standards, as long as they are no more stringent than the established performance standards. As always, check your internal agency policies regarding the use of a formal opportunity period.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q19</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="Two people working"  width='448' height='336' src='../media/content/OPM_ER_PM_06b_preparing_81398.png' srcWidth='448' srcHeight='336' ALT='Two people working' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ19() {
+  var correct = document.getElementById("q19a1").checked;
+  document.getElementById("correctFeedbackQ19").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ19").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text19" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 19:</b></p>
+    <p>Which situation represents a conflict of interest in procurement?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q19" id="q19a1"><label for="q19a1">A staff member influencing selection of a relative’s company</label></div>
+      <div class="mcq-option"><input type="radio" name="q19" id="q19a2"><label for="q19a2">Selecting the lowest evaluated bid</label></div>
+      <div class="mcq-option"><input type="radio" name="q19" id="q19a3"><label for="q19a3">Committee-based decision making</label></div>
+      <div class="mcq-option"><input type="radio" name="q19" id="q19a4"><label for="q19a4">Documented emergency procurement</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ19();">
+    </form>
+    <div id="correctFeedbackQ19" class="feedback correct">Correct! Influencing selection of a relative’s company is a conflict of interest.</div>
+    <div id="incorrectFeedbackQ19" class="feedback incorrect">Incorrect. The correct answer is a staff member influencing selection of a relative’s company.</div>
+  </div>
+</div>
+
+</body>
+</html>

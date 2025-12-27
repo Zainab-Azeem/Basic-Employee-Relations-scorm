@@ -1,27 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q11</title>
 
-	
-	<div class="infoLinksBox left top infoLinksBoxWidth fullHeight">
-		<div id="UDUTU_Text1" class="text">
-			<div id="UDUTU_Text1_Headline" class="textHeadline">Step 2: Provide an Opportunity to Improve</div>
-			<div id="UDUTU_Text1_Content" class="textContent"><p><b>Requests for Accommodations</b></p><p>When counseling, providing an opportunity period, or taking action, the supervisor may discover that a performance problem is due to a mental or physical condition. As a result, an employee may request some type of accommodation. Not everyone with a medical condition is protected by the law. In order to be protected, a person must be qualified for the job and have a disability as defined by the law. In this type of situation, you may want to get technical assistance from your agency’s Reasonable Accommodation or Equal Employment Opportunity office. However, as a starting point in your determination as to whether or not an employee is entitled to such an accommodation, review the checklist below.&nbsp;</p>
-<p><br /></p>
-<p><strong><font color="#b01c05">Select each link below for more information. Select Next to continue.</font></strong></p></div>
-			<div id="UDUTU_Text1_EditContent" class="editPanel">
-				<p>text editing options</p>
-				<div id="UDUTU_Text1_btnAdd"></div>
-				<div id="UDUTU_Text1_btnEdit"></div>
-				<div id="UDUTU_Text1_btnSelect"></div>
-			</div>
-		</div>
-        	<span id="UDUTU_MoreInfoLinks_btnAdd"></span>
-        	<div id="UDUTU_MoreInfoLinks" class="infoLinks"><UL><LI class='milink'><div class=''><div class=''><a href='javascript:UDUTU_MIClicked("screen64605.html")'>Does the employee have a disability?</a></div></div></LI><LI class='milink'><div class=''><div class=''><a href='javascript:UDUTU_MIClicked("screen64606.html")'>Is the employee a "qualified disabled" person?</a></div></div></LI><LI class='milink'><div class=''><div class=''><a href='javascript:UDUTU_MIClicked("screen64607.html")'>Does the accommodation request cause an undue hardship? </a></div></div></LI></UL></div>
-	</div>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
 
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
 
-	<iframe id="UDUTU_MoreInfoFrame" src='blank.html' scrolling=no frameBorder=no width='500' height='530' class="infoEmbed right top infoEmbedWidth fullHeight">
-	</iframe>
-	
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
 
-<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function checkAnswerQ11() {
+  var correct = document.getElementById("q11a1").checked;
+  document.getElementById("correctFeedbackQ11").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ11").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text11" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 11:</b></p>
+    <p>In emergency procurement, which principle applies?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q11" id="q11a1"><label for="q11a1">Delivery time and quality take priority with written justification</label></div>
+      <div class="mcq-option"><input type="radio" name="q11" id="q11a2"><label for="q11a2">Price must always be lowest</label></div>
+      <div class="mcq-option"><input type="radio" name="q11" id="q11a3"><label for="q11a3">No documentation is required</label></div>
+      <div class="mcq-option"><input type="radio" name="q11" id="q11a4"><label for="q11a4">Committee approval is never needed</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ11();">
+    </form>
+    <div id="correctFeedbackQ11" class="feedback correct">Correct! In emergency procurement, delivery time and quality take priority with written justification.</div>
+    <div id="incorrectFeedbackQ11" class="feedback incorrect">Incorrect. The correct answer is delivery time and quality take priority with written justification.</div>
+  </div>
+</div>
+
+</body>
+</html>

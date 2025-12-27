@@ -1,71 +1,86 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=true;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head>  <script type="text/javascript" src="jquery.js"></script>
-  <script type="text/javascript" src="screenUtils.js"></script>
-  <script type="text/javascript" src="interactiveUtils.js"></script>
-  <script type="text/javascript">
-    var intCorrectGoToScreenID = -1;
-    var intIncorrectGoToScreenID = -1;
-    var intPartialGoToScreenID = -1; 
-    var xmlFile ='64639.xml';
-    var themeDir = 'themes/selkirk/'; 
-  </script>       
-  <script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>  
-  <script type="text/javascript" src="assessment.js"></script>   
-  <script type="text/javascript" src="multiplechoice.js"></script>
-</head>   
-<body class="contentBody">  
-  <div id="Water_Mark"></div>
-  <div id="assessment" class="multiplechoice mc8options">
-    <div id="panel">              
-      <a class="close-btn" href="#close"></a>
-      <div id="instructions" class="instructions">                </div>
-      <div id="correct" class="feedback">              </div>
-      <div id="incorrect" class="feedback">              </div>
-      <div id="partial" class="feedback">              </div>
-      <div id="show_me" class="feedback">              </div>
-      <div class="button"><a href="#close">OK</a></div>          </div>
-      <div id="questionOptions">              
-        <div id="divQuestionText" class="question"></div>
-        <div id="option1" class="option">               
-          <a href="#select"></a>
-        </div> 
-        <div id="option2" class="option"> 
-          <a href="#select"></a>
-        </div> 
-        <div id="option3" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option4" class="option">
-          <a href="#select"></a>
-        </div> 
-        <div id="option5" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option6" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option7" class="option">
-          <a href="#select"></a>
-        </div>
-        <div id="option8" class="option">
-          <a href="#select"></a>
-        </div>
-      </div>
-      <div id="buttonrow">
-        <div id="instructBtn" class="button">
-          <a href='#showinstructions'>instructions</a>
-        </div>
-        <div id="showBtn" class="button disabled">
-          <a href='#showanswers'>show me</a>
-        </div>
-        <div id="checkBtn" class="button">
-          <a href='#checkanswers'>i'm done</a>
-        </div>
-      </div>
-    </div>
-    <div id="audio"></div>
-    <script type="text/javascript">
-      initAssessment('64639.xml','themes/selkirk/');      
-    </script>
-    <span id="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-    <script type="text/javascript">        InitSound();      </script>
-  </body></html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NIDA-Pakistan Security Policy – Sections 9 to 14</title>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+  .section { background-color: #fff; border-radius: 10px; padding: 15px; margin-bottom: 15px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+  .section h3 { color: #003366; cursor: pointer; margin: 0; padding: 10px; background-color: #e6e6e6; border-radius: 8px; }
+  .section-content { display: none; padding: 10px 15px; background-color: #f9f9f9; border-radius: 8px; margin-top: 5px; }
+  ul { margin-left: 20px; }
+  .note { background-color:#e6f7ff; padding:10px; border-left:5px solid #3399ff; margin-top:10px; }
+</style>
+<script>
+  function toggleSection(id) {
+    var content = document.getElementById(id);
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+</head>
+<body>
+
+<div class="section">
+  <h3 onclick="toggleSection('sec9')">Local Security, Crisis Management & Evacuation Plans</h3>
+  <div id="sec9" class="section-content">
+    <p>Each office must develop:</p>
+    <ul>
+      <li>Local Security Plan: Identify threats and mitigation measures.</li>
+      <li>Crisis Management Plan: Procedures for emergencies.</li>
+      <li>Evacuation Plan: Safe exit routes, assembly points, and communication channels.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h3 onclick="toggleSection('sec10')">Minimum Training Requirements</h3>
+  <div id="sec10" class="section-content">
+    <p>Staff must receive training to ensure preparedness:</p>
+    <ul>
+      <li>Introduction to safety and security aligned with NIDA-Pak policies.</li>
+      <li>Regional or local training for specific risks.</li>
+      <li>Project managers decide training measures and frequency.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h3 onclick="toggleSection('sec11')">No Ransom or Bribes</h3>
+  <div id="sec11" class="section-content">
+    <p>NIDA-Pakistan maintains ethical standards:</p>
+    <ul>
+      <li>No payment of ransoms for staff release.</li>
+      <li>No rewards, inducements, or bribes to officials.</li>
+      <li>All actions comply with law and organizational ethics.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h3 onclick="toggleSection('sec12')">Right to Withdraw</h3>
+  <div id="sec12" class="section-content">
+    <p>Staff may withdraw from unsafe situations without disciplinary action:</p>
+    <ul>
+      <li>Notify the security office via phone or email.</li>
+      <li>Follow guidance from security personnel.</li>
+      <li>Personal safety is the top priority.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h3 onclick="toggleSection('sec13')">No Right to Remain</h3>
+  <div id="sec13" class="section-content">
+    <p>NIDA-Pakistan can withdraw staff from dangerous situations:</p>
+    <ul>
+      <li>Staff must comply immediately.</li>
+      <li>Failure to comply may result in disciplinary action or contract termination.</li>
+      <li>Applies at project and country program level.</li>
+    </ul>
+  </div>
+</div>
+
+
+
+</body>
+</html>

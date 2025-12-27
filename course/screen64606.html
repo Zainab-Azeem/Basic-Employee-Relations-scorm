@@ -1,14 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody moreInfo" onLoad="Initialize();">
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Is the employee a "qualified disabled" person?</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><div><b>Yes if...</b></div><div><ul><li>The employee can perform essential functions with or without reasonable accommodation.&nbsp;</li><li>There is no endangerment of health and safety of employee or coworkers.</li><li>The employee otherwise meets the requirements of the position.</li></ul></div><div>If the employee demonstrates that he or she is a qualified individual with a disability, you may need to work with your Equal Employment Opportunity office to determine whether the accommodation request will cause an undue hardship.&nbsp;</div></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q13</title>
 
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ13() {
+  var correct = document.getElementById("q13a1").checked;
+  document.getElementById("correctFeedbackQ13").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ13").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text13" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 13:</b></p>
+    <p>Which practice is essential for effective warehouse management?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q13" id="q13a1"><label for="q13a1">Stock cards and regular physical verification</label></div>
+      <div class="mcq-option"><input type="radio" name="q13" id="q13a2"><label for="q13a2">Informal verbal tracking</label></div>
+      <div class="mcq-option"><input type="radio" name="q13" id="q13a3"><label for="q13a3">Annual stock checking only</label></div>
+      <div class="mcq-option"><input type="radio" name="q13" id="q13a4"><label for="q13a4">Supplier-managed storage without oversight</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ13();">
+    </form>
+    <div id="correctFeedbackQ13" class="feedback correct">Correct! Stock cards and regular physical verification are essential for warehouse management.</div>
+    <div id="incorrectFeedbackQ13" class="feedback incorrect">Incorrect. The correct answer is stock cards and regular physical verification.</div>
+  </div>
+</div>
+
+</body>
+</html>

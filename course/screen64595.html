@@ -1,36 +1,131 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top textHalfWidth fullHeight">
-		<div class="textHeadline" id="UDUTU_Text1_Headline">Step 1: Communicate Expectations and Performance Problems</div>
-		<div class="textContent" id="UDUTU_Text1_Content"><p><b>How Can a Supervisor Effectively Counsel an Employee? (continued)</b></p><p>Effective Counseling Tips to Give to Supervisors:</p><ul><li>Before counseling, make sure you can clearly describe acceptable performance.&nbsp;</li><li>Conduct the counseling session in a private place.&nbsp;</li><li>Arrange adequate time for your comments as well as comments from the employee.&nbsp;</li><li>Clearly state performance expectations and seek confirmation that the employee understands those expectations.&nbsp;</li><li>Focus on the poor performance, not on personalities or other distractions.&nbsp;</li><li>Always maintain a constructive tone, along with a calm and professional demeanor.&nbsp;</li><li>Seek cooperation, NOT confrontation.&nbsp;</li><li>Remember that your goal is to improve the employee’s performance, not to win an argument with the employee.&nbsp;</li><li>End the session on a positive note by emphasizing that your mutual goal is improving the employee’s performance. &nbsp;</li></ul>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>		
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment</title>
 
-	<div id="UDUTU_MultiMedia1" class="image right top imageHalfWidth imageRegHeight">
-		<img id="UDUTU_MultiMedia1_Content" class="SomeClass" title="A woman working"  width='448' height='336' src='../media/content/EMR_94_81359.png' srcWidth='448' srcHeight='336' ALT='A woman working' >
-		
-		<div id="UDUTU_MultiMedia1_EditContent" class="editPanel">
-			<p>media editing options</p>
-			<div id="UDUTU_MultiMedia1_btnAdd"></div>
-			<div id="UDUTU_MultiMedia1_btnEdit"></div>
-			<div id="UDUTU_MultiMedia1_btnSelect"></div>
-		</div>
-	
-		<div id="UDUTU_MultiMedia1_Caption" class="caption">
-			<div id="UDUTU_MultiMedia1_Caption_Content" class="capText"></div>
-			<div id="UDUTU_MultiMedia1_Caption_EditContent" class="editPanel">
-				<p>edit caption</p>
-				<div id="UDUTU_MultiMedia1_Caption_btnEdit"></div>
-			</div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option {
+  margin-bottom: 10px;
+}
+.feedback {
+  display: none;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ2() {
+  var correct = document.getElementById("q2a1").checked;
+  document.getElementById("correctFeedbackQ2").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ2").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+
+<body class="contentBody" onload="Initialize();">
+
+<div id="Water_Mark"></div>
+
+<!-- LEFT PANEL -->
+<div id="UDUTU_Text2" class="text left top textHalfWidth fullHeight">
+
+  <div class="textHeadline" id="UDUTU_Text2_Headline">
+    Procurement & Logistics Policy – Assessment Question
+  </div>
+
+  <div class="textContent" id="UDUTU_Text2_Content">
+
+    <p><b>Question 2:</b></p>
+
+    <p>
+      Which procurement method is required for purchases between PKR 25,001 and PKR 200,000?
+    </p>
+
+    <form>
+      <div class="mcq-option">
+        <input type="radio" name="q2" id="q2a1">
+        <label for="q2a1">Three open quotations with purchase committee approval</label>
+      </div>
+
+      <div class="mcq-option">
+        <input type="radio" name="q2" id="q2a2">
+        <label for="q2a2">Cash purchase without quotations</label>
+      </div>
+
+      <div class="mcq-option">
+        <input type="radio" name="q2" id="q2a3">
+        <label for="q2a3">National tendering</label>
+      </div>
+
+      <div class="mcq-option">
+        <input type="radio" name="q2" id="q2a4">
+        <label for="q2a4">Direct purchase from preferred supplier</label>
+      </div>
+
+      <input type="button" value="Check Answer" onclick="checkAnswerQ2();">
+    </form>
+
+    <div id="correctFeedbackQ2" class="feedback correct">
+      Correct! Purchases between PKR 25,001 and PKR 200,000 require three open quotations with approval from the purchase committee.
+    </div>
+
+    <div id="incorrectFeedbackQ2" class="feedback incorrect">
+      Incorrect. The correct answer is three open quotations with purchase committee approval.
+    </div>
+
+    <p>
+      <strong><font color="#b01c05">
+        Select Next to continue.
+      </font></strong>
+    </p>
+
+  </div>
+
+  <div id="UDUTU_Text2_EditContent" class="editPanel">
+    <p>text editing options</p>
+    <div id="UDUTU_Text2_btnAdd"></div>
+    <div id="UDUTU_Text2_btnEdit"></div>
+    <div id="UDUTU_Text2_btnSelect"></div>
+  </div>
+
+</div>
+
+<!-- RIGHT PANEL -->
+<div id="UDUTU_MultiMedia2" class="image right top imageHalfWidth imageRegHeight">
+
+  <img id="UDUTU_MultiMedia2_Content"
+       width="448"
+       height="336"
+       src="../media/content/procurement_review.png"
+       alt="Procurement method illustration">
+
+  <div id="UDUTU_MultiMedia2_Caption" class="caption">
+    <div class="capText">
+      Ensuring proper quotations prevents misuse and ensures compliance with procurement policy.
+    </div>
+  </div>
+
+</div>
+
+<span id="UDUTU_Narration" style="visibility:hidden;">
+  ../Media/Content/sample_question2.mp3
+</span>
+
+</body>
+</html>

@@ -1,17 +1,54 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Untitled Page</title><script>function Initialize(){InitSound(); }function InitSound(){} var isAssessment=false;</script><script src="utility.js"></script><script src="screenUtils.js"></script><script src="interactiveUtils.js"></script> <script type="text/javascript" src="jquery.js"></script><script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script></head><body class="contentBody" onload="Initialize();">
-<div id="Water_Mark"></div>
-	<div id="UDUTU_Text1" class="text left top fullWidth fullHeight">
-		<div id="UDUTU_Text1_Headline" class="textHeadline">Step 1: Communicate Expectations and Performance Problems</div>
-		<div id="UDUTU_Text1_Content" class="textContent"><p style="font-weight: bold;">Guidance to Give to Supervisors</p><p><b>Conducting the Counseling Session</b></p><ol><li>In scheduling a meeting to discuss a performance issue, make sure you allow adequate time for your comments and any feedback from the employee. Conduct the meeting in a private place where the conversation will not overheard.</li><li>Choose your time based on your knowledge of the employee. Is this someone who needs to have a meeting like this on Friday so he or she can sort things out over the weekend? &nbsp;Or is this a person who will feel like you are leaving him or her no opportunity to respond for two days? &nbsp;Use the same thought process for deciding how information is best given. Although you will be meeting to have a discussion, would this employee like to read through some written notes before talking? &nbsp;Would a verbal discussion with a commitment to follow up with something in writing be a more receptive approach for the employee?</li><li>Set and maintain a constructive tone: be calm, professional, and focused. Seek cooperation by focusing on how the employee’s performance fits into the performance of the total organization.</li><li>Choose several points throughout your comments where you can stop and get confirmation from the employee that he or she understands the problems and your expectations. Providing opportunities for him or her to respond will allow the employee to be active in the discussion and may lessen the negative impression of a “lecture” being given.</li><li>At the conclusion of the meeting, end on a positive note by emphasizing that improving the employee’s performance is a mutually beneficial goal. Offer a written summary to be given to the employee. Having a written summary is particularly valuable if you will be trying something new or changing any work assignment routine.</li><li>Keep notes for yourself documenting the date of the discussion and any specific agreements you reached with the employee regarding changes to the way work is assigned or structured. Create a follow-up memo using these notes and share it with the employee.&nbsp;</li><li>Monitor performance and follow up. If the employee shows improvement, let him or her know it immediately.</li></ol><p><br /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong><font color="#b01c05">Select Next to continue.</font></strong></p></div>
-		<div id="UDUTU_Text1_EditContent" class="editPanel">
-			<p>text editing options</p>
-			<div id="UDUTU_Text1_btnAdd"></div>
-			<div id="UDUTU_Text1_btnEdit"></div>
-			<div id="UDUTU_Text1_btnSelect"></div>
-		</div>
-	</div>
-	<span ID="UDUTU_Narration" NAME="UDUTU_Narration" style="visibility: hidden;">../Media/Content/sample.mp3</span>
-</body></html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Procurement Assessment - Q7</title>
+
+<script>
+function Initialize(){InitSound();}
+function InitSound(){}
+var isAssessment=true;
+</script>
+
+<script src="utility.js"></script>
+<script src="screenUtils.js"></script>
+<script src="interactiveUtils.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+<style>
+.mcq-option { margin-bottom: 10px; }
+.feedback { display: none; margin-top: 15px; font-weight: bold; }
+.correct { color: green; }
+.incorrect { color: red; }
+</style>
+
+<script>
+function checkAnswerQ7() {
+  var correct = document.getElementById("q7a1").checked;
+  document.getElementById("correctFeedbackQ7").style.display = correct ? "block" : "none";
+  document.getElementById("incorrectFeedbackQ7").style.display = correct ? "none" : "block";
+}
+</script>
+
+</head>
+<body class="contentBody" onload="Initialize();">
+
+<div id="UDUTU_Text7" class="text left top textHalfWidth fullHeight">
+  <div class="textHeadline">Procurement & Logistics Policy – Assessment Question</div>
+  <div class="textContent">
+    <p><b>Question 7:</b></p>
+    <p>Why is a Purchase Order (PO) important?</p>
+    <form>
+      <div class="mcq-option"><input type="radio" name="q7" id="q7a1"><label for="q7a1">It legally binds NIDA-Pakistan and the supplier</label></div>
+      <div class="mcq-option"><input type="radio" name="q7" id="q7a2"><label for="q7a2">It replaces the requisition form</label></div>
+      <div class="mcq-option"><input type="radio" name="q7" id="q7a3"><label for="q7a3">It is optional for services</label></div>
+      <div class="mcq-option"><input type="radio" name="q7" id="q7a4"><label for="q7a4">It is used only for reporting</label></div>
+      <input type="button" value="Check Answer" onclick="checkAnswerQ7();">
+    </form>
+    <div id="correctFeedbackQ7" class="feedback correct">Correct! The PO legally binds NIDA-Pakistan and the supplier.</div>
+    <div id="incorrectFeedbackQ7" class="feedback incorrect">Incorrect. The correct answer is that it legally binds NIDA-Pakistan and the supplier.</div>
+  </div>
+</div>
+
+</body>
+</html>
