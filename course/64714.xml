@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 18 of 39" closeText="OK">
-    <question>Performance standards should be</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 19 of 39" closeText="OK">
+    <question>When are employees eligible for training and development at NIDA-Pakistan?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Attainable, straightforward, and timely.</option>
-    <option correct="0" display_order="1" alt="">Reachable, realistic, and measurable.</option>
-    <option correct="0" display_order="2" alt="">Creative, executable, and respectable.</option>
-    <option correct="1" display_order="3" alt="">Attainable, understandable, and measurable.</option>
+    <option correct="1" display_order="0" alt="">After probation, recommended by Line Manager, validated by HR, based on Training Needs Assessment.</option>
+    <option correct="0" display_order="1" alt="">Immediately upon joining without assessment.</option>
+    <option correct="0" display_order="2" alt="">Only after 5 years of service.</option>
+    <option correct="0" display_order="3" alt="">Only external training without internal sessions.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Training is planned and needs-based after probation.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: After probation, recommended by Line Manager, validated by HR, based on Training Needs Assessment.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

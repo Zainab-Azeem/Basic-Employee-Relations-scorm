@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 9 of 39" closeText="OK">
-    <question>As an ER Specialist, what is the first step to advising management on the proper charge for disciplinary action?</question>
+    <question>Which behaviour is strictly prohibited under NIDA-Pakistan’s zero-tolerance policy?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Assume that the employee is guilty of the charge.</option>
-    <option correct="1" display_order="1" alt="">Know the facts of the case before writing the charge.</option>
-    <option correct="0" display_order="2" alt="">Publicly state the employee’s misconduct.</option>
-    <option correct="0" display_order="3" alt="">Find evidence of the employee’s misconduct.</option>
+    <option correct="0" display_order="0" alt="">Reporting security incidents promptly.</option>
+    <option correct="0" display_order="1" alt="">Participating in approved community engagement activities.</option>
+    <option correct="1" display_order="2" alt="">Engaging in sexual exploitation, abuse, or harassment.</option>
+    <option correct="0" display_order="3" alt="">Following ethical work practices.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Any form of sexual violence or harassment is strictly prohibited.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Engaging in sexual exploitation, abuse, or harassment.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

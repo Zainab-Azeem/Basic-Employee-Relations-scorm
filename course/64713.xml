@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 17 of 39" closeText="OK">
-    <question>Performance plans should be given to employees within ___ days of the start of the appraisal period.</question>
+    <question>Who approves appointments for upper/senior management positions?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">15</option>
-    <option correct="1" display_order="1" alt="">30</option>
-    <option correct="0" display_order="2" alt="">60</option>
-    <option correct="0" display_order="3" alt="">90</option>
+    <option correct="1" display_order="0" alt="">The Board of Directors or its delegated authority.</option>
+    <option correct="0" display_order="1" alt="">HR Manager alone.</option>
+    <option correct="0" display_order="2" alt="">Line supervisors without Board involvement.</option>
+    <option correct="0" display_order="3" alt="">Project coordinators at field offices.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Senior management appointments require Board approval.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: The Board of Directors or its delegated authority.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

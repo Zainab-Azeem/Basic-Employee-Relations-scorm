@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 1 of 39" closeText="OK">
-    <question>When your agency follows the Merit System Principles,</question>
+    <question>What is the primary mission of NIDA-Pakistan?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Employees are hired and fired based on their political party.</option>
-    <option correct="1" display_order="1" alt="">Employees are promoted based on skill and workplace excellence.</option>
-    <option correct="0" display_order="2" alt="">Managers promote their favorite employees, regardless of skill or experience.</option>
-    <option correct="0" display_order="3" alt="">Managers hire campaign volunteers after a winning election.</option>
+    <option correct="0" display_order="0" alt="">To run commercial businesses for profit.</option>
+    <option correct="1" display_order="1" alt="">To empower communities through development and humanitarian initiatives.</option>
+    <option correct="0" display_order="2" alt="">To provide only government consultancy services.</option>
+    <option correct="0" display_order="3" alt="">To focus solely on education in urban areas.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! NIDA-Pakistan focuses on community empowerment through development and humanitarian initiatives.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: To empower communities through development and humanitarian initiatives.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

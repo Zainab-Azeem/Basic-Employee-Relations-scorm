@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
+
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 16 of 39" closeText="OK">
-    <question>What are the five performance management fundamentals?</question>
+    <question>What is the purpose of the probation period for regular/permanent staff?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Planning, monitoring, evaluating, creating, and reviewing</option>
-    <option correct="0" display_order="1" alt="">Developing, employing, starting, performing, and managing</option>
-    <option correct="1" display_order="2" alt="">Planning, monitoring, developing, rating, and rewarding</option>
-    <option correct="0" display_order="3" alt="">Developing, monitoring, managing, planning, and reviewing</option>
+    <option correct="1" display_order="0" alt="">To review performance and determine confirmation, extension, or improvement plans.</option>
+    <option correct="0" display_order="1" alt="">To avoid providing benefits during the first year.</option>
+    <option correct="0" display_order="2" alt="">To allow staff to work without supervision.</option>
+    <option correct="0" display_order="3" alt="">To test only academic qualifications without performance evaluation.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Probation ensures performance review and suitability before confirmation.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: To review performance and determine confirmation, extension, or improvement plans.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

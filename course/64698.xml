@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 2 of 39" closeText="OK">
-    <question>The Merit System ensures that</question>
+    <question>Which of the following principles guide NIDA-Pakistan’s operations?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">People who campaigned for the President elect have a job.</option>
-    <option correct="0" display_order="1" alt="">Managers with open positions can buy and sell jobs.</option>
-    <option correct="1" display_order="2" alt="">Federal job postings are open, competitive, and free of political coercion.</option>
-    <option correct="0" display_order="3" alt="">Federal job postings are released within the administration before being made public.</option>
+    <option correct="1" display_order="0" alt="">Transparency, accountability, and inclusivity.</option>
+    <option correct="0" display_order="1" alt="">Profit maximization at all costs.</option>
+    <option correct="0" display_order="2" alt="">Political neutrality only.</option>
+    <option correct="0" display_order="3" alt="">Strict adherence to urban projects.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Transparency, accountability, and inclusivity are core principles.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Transparency, accountability, and inclusivity.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 36 of 39" closeText="OK">
-    <question>A union representative may speak for the employee during an investigative interview.</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Module 6: Security Policy – Question" closeText="OK">
+    <question>What is the primary objective of NIDA-Pakistan’s Security Policy?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">True</option>
-    <option correct="1" display_order="1" alt="">False</option>
+   <option correct="0" display_order="1" alt="">To allow employees to disregard safety protocols in emergency situations.</option>
+    <option correct="0" display_order="2" alt="">To protect only the organization’s assets, ignoring personnel safety.</option>
+    <option correct="0" display_order="3" alt="">To focus solely on physical security of offices without considering field operations.</option>
+    <option correct="1" display_order="0" alt="">To ensure the safety, health, and security of employees, volunteers, partners, and community members during all activities.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! The Security Policy prioritizes the protection of people and assets at all times.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: To ensure the safety, health, and security of employees, volunteers, partners, and community members during all activities.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

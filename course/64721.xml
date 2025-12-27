@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 25 of 39" closeText="OK">
-    <question>Probationary employees can be terminated for any perceived deficiency in performance or conduct.</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 27 of 39" closeText="OK">
+    <question>What is a key requirement for Cash-for-Work beneficiary payment?</question>
   <answers>
-    <option correct="1" display_order="0" alt="">True</option>
-    <option correct="0" display_order="1" alt="">False</option>
+    <option correct="0" display_order="0" alt="">Only verbal confirmation of work done.</option>
+    <option correct="1" display_order="1" alt="">Verified beneficiary list, tokens, thumb impressions/signatures, and cheque copies.</option>
+    <option correct="0" display_order="2" alt="">No documentation is needed if supervisor approves.</option>
+    <option correct="0" display_order="3" alt="">Payment without reconciliation sheets.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! CfW payments require full documentation for accountability.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Verified beneficiary list, tokens, thumb impressions/signatures, and cheque copies.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

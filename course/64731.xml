@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 35 of 39" closeText="OK">
-    <question>Another word for “formal discussion” might be</question>
+
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 37 of 39" closeText="OK">
+    <question>Which purchase category requires national tender procedures?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">“Formal Gathering.”</option>
-    <option correct="0" display_order="1" alt="">“Formal Investigation.”</option>
-    <option correct="0" display_order="2" alt="">“Formal Cohort.”</option>
-    <option correct="1" display_order="3" alt="">“Formal Meeting.”</option>
+    <option correct="0" display_order="0" alt="">High-value purchases (PKR 200,001 – 1,500,000).</option>
+    <option correct="1" display_order="1" alt="">National Tender Purchases (Above PKR 1,500,001).</option>
+    <option correct="0" display_order="2" alt="">Medium-value purchases (PKR 25,001 – 200,000).</option>
+    <option correct="0" display_order="3" alt="">Low-value purchases (PKR 0 – 25,000).</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! National tender is required for purchases above PKR 1,500,001.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: National Tender Purchases (Above PKR 1,500,001).</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

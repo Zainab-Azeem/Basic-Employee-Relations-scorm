@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 3 of 39" closeText="OK">
-    <question>Which of the following is NOT a Merit System Principle?</question>
+    <question>Who are the primary beneficiaries of NIDA-Pakistan’s programs?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Maintain high standards of integrity, conduct, and concern for the public interest.</option>
-    <option correct="0" display_order="1" alt="">Protect employees against reprisal for the lawful disclosure of information in "whistleblower" situations.</option>
-    <option correct="0" display_order="2" alt="">Provide equal pay for equal work and reward excellent performance.</option>
-    <option correct="1" display_order="3" alt="">Recruit, select, and advance on political affiliation after an open competition.</option>
+    <option correct="0" display_order="0" alt="">Only government employees.</option>
+    <option correct="1" display_order="1" alt="">Vulnerable and marginalized communities.</option>
+    <option correct="0" display_order="2" alt="">Urban business owners only.</option>
+    <option correct="0" display_order="3" alt="">International organizations exclusively.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! NIDA-Pakistan targets vulnerable and marginalized communities.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Vulnerable and marginalized communities.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

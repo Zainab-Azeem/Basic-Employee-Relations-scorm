@@ -1,16 +1,15 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 33 of 39" closeText="OK">
-    <question>An employee’s right to form, join, or assist a union is protected under</question>
+
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 35 of 39" closeText="OK">
+    <question>What is the “five rights” principle in logistics?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">The Constitution.</option>
-    <option correct="0" display_order="1" alt="">The Bill of Rights.</option>
-    <option correct="1" display_order="2" alt="">The Federal Service Labor-Management Relations Statute.</option>
-    <option correct="0" display_order="3" alt="">The 1978 Plan.</option>
+    <option correct="0" display_order="1" alt="">Right supplier, right marketing, right branding, right promotion, right visibility.</option>
+    <option correct="0" display_order="2" alt="">Right color, right style, right design, right packaging, right label.</option>
+    <option correct="0" display_order="3" alt="">Right donor, right fund, right documentation, right approval, right recipient.</option>
+    <option correct="1" display_order="0" alt="">Right goods, right quantity, right quality, right time, right price.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Logistics ensures goods meet quantity, quality, timing, and cost requirements.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Right goods, right quantity, right quality, right time, right price.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

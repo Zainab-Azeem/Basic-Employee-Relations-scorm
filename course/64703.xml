@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 7 of 39" closeText="OK">
-    <question>As an ER Specialist, you must inform supervisors that the purpose of discipline is to</question>
+    <question>Which of the following is prohibited while representing NIDA-Pakistan?</question>
   <answers>
-    <option correct="1" display_order="0" alt="">Correct and rehabilitate.</option>
-    <option correct="0" display_order="1" alt="">Severely punish inappropriate behavior.</option>
-    <option correct="0" display_order="2" alt="">Fire unfit employees.</option>
-    <option correct="0" display_order="3" alt="">Reevaluate and reassign.</option>
+    <option correct="1" display_order="0" alt="">Engaging in political campaigning or promoting religious beliefs.</option>
+    <option correct="0" display_order="1" alt="">Wearing proper uniforms during duty hours.</option>
+    <option correct="0" display_order="2" alt="">Reporting incidents of misconduct.</option>
+    <option correct="0" display_order="3" alt="">Respecting colleagues and community members.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Political and religious advocacy while representing NIDA-Pakistan is strictly prohibited.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Engaging in political campaigning or promoting religious beliefs.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

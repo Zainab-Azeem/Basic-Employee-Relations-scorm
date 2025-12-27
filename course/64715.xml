@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 19 of 39" closeText="OK">
-    <question>________ is measuring performance and providing feedback to employees on their performance.</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 21 of 39" closeText="OK">
+    <question>What is the main objective of NIDA-Pakistan’s internal control system?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Execution</option>
-    <option correct="0" display_order="1" alt="">Attainment</option>
-    <option correct="1" display_order="2" alt="">Monitoring</option>
-    <option correct="0" display_order="3" alt="">Creation</option>
+    <option correct="1" display_order="0" alt="">To safeguard assets, ensure reliable accounts, and achieve operational efficiency.</option>
+    <option correct="0" display_order="1" alt="">To replace external audits completely.</option>
+    <option correct="0" display_order="2" alt="">To process payments faster without documentation.</option>
+    <option correct="0" display_order="3" alt="">To allow project managers full discretion over funds.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Internal control ensures asset protection, reliability, and efficiency.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: To safeguard assets, ensure reliable accounts, and achieve operational efficiency.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

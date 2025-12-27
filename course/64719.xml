@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 23 of 39" closeText="OK">
-    <question>Once a within-grade increase has been denied, a supervisor has the flexibility to approve a within-grade increase at any time thereafter once the employee is determined to be performing at an acceptable level of competence.</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 25 of 39" closeText="OK">
+    <question>What is the purpose of a Comparative Statement in procurement?</question>
   <answers>
-    <option correct="1" display_order="0" alt="">True</option>
-    <option correct="0" display_order="1" alt="">False</option>
+    <option correct="0" display_order="0" alt="">To approve vendor payments without quotation review.</option>
+    <option correct="1" display_order="1" alt="">To evaluate quotations and justify supplier selection.</option>
+    <option correct="0" display_order="2" alt="">To bypass the purchase order process.</option>
+    <option correct="0" display_order="3" alt="">To provide payment receipt to donors only.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Comparative Statements ensure fair and justified supplier selection.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: To evaluate quotations and justify supplier selection.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 32 of 39" closeText="OK">
-    <question>Conduct and performance actions may be taken against bargaining unit employees, without regard to the collective bargaining agreement.</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 34 of 39" closeText="OK">
+    <question>Which of the following is NOT a selection criterion in Comparative Bid Analysis (CBA)?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">True</option>
-    <option correct="1" display_order="1" alt="">False</option>
+    <option correct="1" display_order="0" alt="">Supplier’s political affiliation.</option>
+    <option correct="0" display_order="1" alt="">Price, quality, timeliness, reliability, payment terms, after sales service.</option>
+    <option correct="0" display_order="2" alt="">Running costs, maintenance, and local considerations.</option>
+    <option correct="0" display_order="3" alt="">Timeliness of delivery and supplier reliability.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Political affiliation is irrelevant; selection is based on merit and compliance criteria.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Supplier’s political affiliation.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

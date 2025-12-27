@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 38 of 39" closeText="OK">
-    <question>Which is most likely to be a formal discussion?</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Module 7: Safeguarding – Question 2" closeText="OK">
+    <question>What is expected from all NIDA-Pakistan staff regarding child protection?</question>
   <answers>
-    <option correct="1" display_order="0" alt="">Town hall meeting announcing a reorganization</option>
-    <option correct="0" display_order="1" alt="">Performance appraisal</option>
-    <option correct="0" display_order="2" alt="">Progress Review</option>
-    <option correct="0" display_order="3" alt="">Discussion of individual work assignments</option>
+    <option correct="0" display_order="1" alt="">Ignore minor incidents unless reported by the community.</option>
+    <option correct="1" display_order="0" alt="">Actively prevent, identify, and respond to any risk or incident of harm involving children.</option>
+    <option correct="0" display_order="2" alt="">Leave safeguarding to managers only.</option>
+    <option correct="0" display_order="3" alt="">Focus only on documentation without taking action.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! All staff have a responsibility to actively safeguard children and prevent harm.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Actively prevent, identify, and respond to any risk or incident of harm involving children.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

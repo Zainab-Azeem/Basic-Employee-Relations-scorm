@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 22 of 39" closeText="OK">
-    <question>One of the most important times to address performance is during the</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 24 of 39" closeText="OK">
+    <question>Which of the following documents is required for vehicle rental payment?</question>
   <answers>
-    <option correct="1" display_order="0" alt="">Probationary/trial period.</option>
-    <option correct="0" display_order="1" alt="">End of the quarter.</option>
-    <option correct="0" display_order="2" alt="">End of the fiscal year.</option>
-    <option correct="0" display_order="3" alt="">Beginning of the fiscal year.</option>
+    <option correct="0" display_order="0" alt="">Only verbal confirmation from the driver.</option>
+    <option correct="0" display_order="1" alt="">Fuel receipt without any contract.</option>
+    <option correct="1" display_order="2" alt="">Signed rental agreement, quotations, logbooks, vendor invoice, and acknowledgement.</option>
+    <option correct="0" display_order="3" alt="">No documents required for rentals below PKR 10,000.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Proper documentation ensures transparency and accountability.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Signed rental agreement, quotations, logbooks, vendor invoice, and acknowledgement.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

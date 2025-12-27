@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 11 of 39" closeText="OK">
-    <question>When can you order a physical examination for an employee?</question>
+    <question>What is the primary purpose of NIDA-Pakistan’s HR Policy?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">At any time</option>
-    <option correct="1" display_order="1" alt="">When the employee occupies a position with physical requirements</option>
-    <option correct="0" display_order="2" alt="">When the employee returns from a leave of absence</option>
-    <option correct="0" display_order="3" alt="">Never</option>
+    <option correct="1" display_order="0" alt="">To maintain an effective system of internal control and support compliance with organizational policies.</option>
+    <option correct="0" display_order="1" alt="">To dictate every specific step of employee tasks.</option>
+    <option correct="0" display_order="2" alt="">To set salary levels for employees only.</option>
+    <option correct="0" display_order="3" alt="">To replace the Board’s authority in strategic decisions.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! The HR Policy ensures internal control and compliance.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: To maintain an effective system of internal control and support compliance with organizational policies.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

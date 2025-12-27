@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 28 of 39" closeText="OK">
-    <question>A probationary period is best described as an</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 30 of 39" closeText="OK">
+    <question>What must finance personnel verify before processing a payment?</question>
   <answers>
-    <option correct="1" display_order="0" alt="">Extension of the competitive examining process.</option>
-    <option correct="0" display_order="1" alt="">Interview.</option>
-    <option correct="0" display_order="2" alt="">Internship.</option>
-    <option correct="0" display_order="3" alt="">Extended disciplinary action.</option>
+    <option correct="0" display_order="0" alt="">Only that the recipient is known personally.</option>
+    <option correct="1" display_order="1" alt="">Budget availability, proper codes, authorization, supporting documents, and compliance with legal obligations.</option>
+    <option correct="0" display_order="2" alt="">That the payment is convenient for the finance team.</option>
+    <option correct="0" display_order="3" alt="">Only the invoice total without checking supporting documents.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Finance must ensure compliance, proper documentation, and budget availability.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Budget availability, proper codes, authorization, supporting documents, and compliance with legal obligations.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

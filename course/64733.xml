@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 37 of 39" closeText="OK">
-    <question>Conditions of employment include which of the following items:</question>
+<content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Module 7: Safeguarding – Question 1" closeText="OK">
+    <question>Which of the following actions is strictly prohibited under NIDA-Pakistan’s Safeguarding policy?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">Matters relating to the Hatch Act.</option>
-    <option correct="1" display_order="1" alt="">Personnel policies, practices, and matters affecting working conditions of bargaining unit employees.</option>
-    <option correct="0" display_order="2" alt="">Matters relating to classification of bargaining unit employees.</option>
-    <option correct="0" display_order="3" alt="">Matters specifically provided for by Federal statute, affecting Federal employees.</option>
+    <option correct="0" display_order="1" alt="">Reporting observed violations through proper channels.</option>
+    <option correct="0" display_order="2" alt="">Engaging in child protection awareness and training programs.</option>
+    <option correct="0" display_order="3" alt="">Maintaining confidentiality of sensitive beneficiary information.</option>
+    <option correct="1" display_order="0" alt="">Any form of sexual exploitation, abuse, or harassment of beneficiaries, colleagues, or partners.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! Safeguarding prohibits sexual exploitation, abuse, and harassment in all circumstances.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Any form of sexual exploitation, abuse, or harassment of beneficiaries, colleagues, or partners.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>

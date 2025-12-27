@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <content marked="true" checkText="I'm done" showText="Show me" instructionsText="Instructions" titleText="Post-Course Assessment 8 of 39" closeText="OK">
-    <question>All disciplinary actions are adverse actions.</question>
+    <question>What should you do if a personal interest conflicts with NIDA-Pakistan’s mission?</question>
   <answers>
-    <option correct="0" display_order="0" alt="">True</option>
-    <option correct="1" display_order="1" alt="">False</option>
+    <option correct="0" display_order="0" alt="">Ignore it and continue with your decision.</option>
+    <option correct="1" display_order="1" alt="">Disclose it immediately to your supervisor or designated compliance authority.</option>
+    <option correct="0" display_order="2" alt="">Delegate the decision to a colleague without disclosure.</option>
+    <option correct="0" display_order="3" alt="">Handle it secretly to avoid delays.</option>
   </answers>
-  <correct audio="">That's right!  Select Next to continue.</correct>
-  <incorrect audio="">Sorry, that's incorrect. Select Next to continue.</incorrect>
-  <partial audio="">
-  </partial>
-  <show_me audio="">
-  </show_me>
+  <correct audio="">Correct! All conflicts of interest must be disclosed immediately to maintain trust and transparency.</correct>
+  <incorrect audio="">Incorrect. The correct answer is: Disclose it immediately to your supervisor or designated compliance authority.</incorrect>
+  <partial audio=""></partial>
+  <show_me audio=""></show_me>
 </content>
