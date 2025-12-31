@@ -120,20 +120,31 @@
 
 <script>
     function populateCertificate() {
-        try {
-            var score = Math.round(UDUTU_API.generateScore());
-            var passingScore = UDUTU_API.gblPassingScore * 100;
+            const params = new URLSearchParams(window.location.search);
+    const score = params.get("score");
 
-            document.getElementById("score").innerHTML = score + "%";
-            document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+    if (score) {
+      document.getElementById("score").innerHTML = score + "%";
+    } else {
+      document.getElementById("score").innerHTML = "--%";
+    }
 
-            if (score < passingScore) {
-                document.getElementById("status").innerHTML =
-                    "This certificate is not valid as the minimum passing score was not achieved.";
-            }
-        } catch (e) {
-            console.log("Certificate population error", e);
-        }
+    document.getElementById("date").innerHTML =
+      new Date().toLocaleDateString();
+        // try {
+        //     var score = Math.round(UDUTU_API.generateScore());
+        //     var passingScore = UDUTU_API.gblPassingScore * 100;
+
+        //     document.getElementById("score").innerHTML = score + "%";
+        //     document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+
+        //     if (score < passingScore) {
+        //         document.getElementById("status").innerHTML =
+        //             "This certificate is not valid as the minimum passing score was not achieved.";
+        //     }
+        // } catch (e) {
+        //     console.log("Certificate population error", e);
+        // }
     }
 </script>
 </head>

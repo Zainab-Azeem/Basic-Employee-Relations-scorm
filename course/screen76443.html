@@ -14,6 +14,22 @@
     <script src="interactiveUtils.js"></script>
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
+
+
+    <style>
+  .certificate-btn {
+    display: none;
+    background: linear-gradient(to bottom, #4b6cb7, #2b4ea2);
+    color: #ffffff;
+    border: 1px solid #1f3c88;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+</style>
   </head>
   <body class="contentBody" onload="Initialize();">
     <div id="Water_Mark"></div>
@@ -53,6 +69,7 @@
         <button
           id="btnCertificate"
           style="display:none; padding:12px 25px; font-size:16px; cursor:pointer;"
+          class="certificate-btn"
           onclick="openCertificate()"
         >
           Print Certificate
@@ -126,7 +143,10 @@
      <!-- OPEN CERTIFICATE -->
     <script>
       function openCertificate() {
-        window.open("./certificate.html", "_blank");
+        // window.open("./certificate.html", "_blank");
+          var score = Math.round(UDUTU_API.generateScore());
+          window.open("./certificate.html?score=" + score, "_blank");
+
       }
     </script>
 
