@@ -120,33 +120,25 @@
 
 <script>
     function populateCertificate() {
-            const params = new URLSearchParams(window.location.search);
-    const score = params.get("score");
+        const params = new URLSearchParams(window.location.search);
+        const score = params.get("score");
 
-    if (score) {
-      document.getElementById("score").innerHTML = score + "%";
-    } else {
-      document.getElementById("score").innerHTML = "--%";
-    }
+        if (score) {
+            document.getElementById("score").innerHTML = score + "%";
+        } else {
+            document.getElementById("score").innerHTML = "--%";
+        }
 
-    document.getElementById("date").innerHTML =
-      new Date().toLocaleDateString();
-        // try {
-        //     var score = Math.round(UDUTU_API.generateScore());
-        //     var passingScore = UDUTU_API.gblPassingScore * 100;
+        document.getElementById("date").innerHTML =
+            new Date().toLocaleDateString();
 
-        //     document.getElementById("score").innerHTML = score + "%";
-        //     document.getElementById("date").innerHTML = new Date().toLocaleDateString();
-
-        //     if (score < passingScore) {
-        //         document.getElementById("status").innerHTML =
-        //             "This certificate is not valid as the minimum passing score was not achieved.";
-        //     }
-        // } catch (e) {
-        //     console.log("Certificate population error", e);
-        // }
+        const storedName = localStorage.getItem("learnerName");
+        if (storedName) {
+            document.getElementById("learnerName").innerHTML = storedName;
+        }
     }
 </script>
+
 </head>
 
 <body onload="populateCertificate();">
@@ -165,7 +157,9 @@
     </div>
 
     <div class="content">
-        <div class="highlight">The Learner</div>
+        <!-- <div class="highlight">The Learner</div> -->
+         <div class="highlight" id="learnerName">The Learner</div>
+
 
         has successfully completed the training module
 
